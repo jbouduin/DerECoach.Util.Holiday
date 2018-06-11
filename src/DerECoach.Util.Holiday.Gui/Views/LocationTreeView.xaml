@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="DerECoach.Util.Holiday.Gui.Views.LocationTreeView"
+             x:ClassModifier="internal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:locationTree="clr-namespace:DerECoach.Util.Holiday.Gui.ViewModels.LocationTree"
+             mc:Ignorable="d" 
+             d:DesignWidth="150"
+             d:DesignHeight="300"
+             d:DataContext="{d:DesignInstance Type=locationTree:LocationTreeViewModel}">
+    
+    <UserControl.Resources>
+        <locationTree:ImageConverter x:Key="ImageConverter"/>
+    </UserControl.Resources>
+    
+    <Grid>
+        <TreeView Name="MeetingTreeView"  Margin="0" BorderThickness="0"
+                      ItemsSource="{Binding Locations, UpdateSourceTrigger=PropertyChanged}">
+
+            <!--Itemcontainer Style-->
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    <Setter Property="FontWeight" Value="Normal" />
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="FontWeight" Value="Bold" />
+                            <Setter Property="Background" Value="DodgerBlue"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TreeView.ItemContainerStyle>
+
+            <!--Item Template-->
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type locationTree:ILocationTreeViewItemViewModel}" ItemsSource="{Binding Children}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="{Binding Path=Flag, Converter={StaticResource ImageConverter}}" Height="16" UseLayoutRounding="True" HorizontalAlignment="Left">
+                            <Image.Style>
+                                <Style TargetType="{x:Type Image}">
+                                    <Style.Setters>
+                                        <Setter Property="Width" Value="16"></Setter>
+                                        <Setter Property="Margin" Value="0,0,4,0"></Setter>
+                                    </Style.Setters>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <TextBlock Margin="2,2,3,2" 
+                                       Grid.Column="1" 
+                                       Text="{Binding Path=Description, Mode=OneWay}"/>
+                    </Grid>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</UserControl>

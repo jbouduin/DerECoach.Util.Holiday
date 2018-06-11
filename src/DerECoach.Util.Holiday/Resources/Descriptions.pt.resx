@@ -1,0 +1,2449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="holiday_description_ADELAIDE_CUP" xml:space="preserve">
+  <value>Taça Adelaide</value>
+</data>
+  <data name="holiday_description_AIR_FORCE_DAY" xml:space="preserve">
+  <value>Dia da Força Aérea</value>
+</data>
+  <data name="holiday_description_ALASKA" xml:space="preserve">
+  <value>Dia do Alaska</value>
+</data>
+  <data name="holiday_description_ALL_SAINTS" xml:space="preserve">
+  <value>Dia de Todos-os-Santos</value>
+</data>
+  <data name="holiday_description_ALL_SOULS" xml:space="preserve">
+  <value>All Souls</value>
+</data>
+  <data name="holiday_description_ANGAMOS" xml:space="preserve">
+  <value>Batalha de Angamos</value>
+</data>
+  <data name="holiday_description_ANNUNCIATION" xml:space="preserve">
+  <value>Anunciação</value>
+</data>
+  <data name="holiday_description_ANTI_FACIST" xml:space="preserve">
+  <value>Dia da Luta Anti-Fascista</value>
+</data>
+  <data name="holiday_description_ANZAC" xml:space="preserve">
+  <value>Dia de ANZAC</value>
+</data>
+  <data name="holiday_description_APARECIDA" xml:space="preserve">
+  <value>Nossa Senhora da Aparecida</value>
+</data>
+  <data name="holiday_description_ARBOR" xml:space="preserve">
+  <value>Dia da Árvore</value>
+</data>
+  <data name="holiday_description_ARMISTICE" xml:space="preserve">
+  <value>Armistice Day</value>
+</data>
+  <data name="holiday_description_ARMY_DAY" xml:space="preserve">
+  <value>Dia das Forças Armadas</value>
+</data>
+  <data name="holiday_description_ARTIGAS" xml:space="preserve">
+  <value>Aniversário de Artigas</value>
+</data>
+  <data name="holiday_description_ASSUMPTION_DAY" xml:space="preserve">
+  <value>Dia da Assunção</value>
+</data>
+  <data name="holiday_description_ASSUMPTION_MARY" xml:space="preserve">
+  <value>Maria da Assumção</value>
+</data>
+  <data name="holiday_description_BANK_HOLIDAY" xml:space="preserve">
+  <value>Feriado Bancário</value>
+</data>
+  <data name="holiday_description_BATTLE_BOYNE" xml:space="preserve">
+  <value>Battle of the Boyne</value>
+</data>
+  <data name="holiday_description_BATTLE_JACINTO" xml:space="preserve">
+  <value>Batalha de San Jacinto</value>
+</data>
+  <data name="holiday_description_BEER_DAY" xml:space="preserve">
+  <value>Dia da Cerveja</value>
+</data>
+  <data name="holiday_description_BENNINGTON" xml:space="preserve">
+  <value>Batalha de Bennington</value>
+</data>
+  <data name="holiday_description_BLACK_AWARENESS" xml:space="preserve">
+  <value>Black Awareness Day</value>
+</data>
+  <data name="holiday_description_BOLIVAR" xml:space="preserve">
+  <value>Aniversário de Simón Bolivar</value>
+</data>
+  <data name="holiday_description_BOXING_DAY" xml:space="preserve">
+  <value>Dia de Santo Estêvão</value>
+</data>
+  <data name="holiday_description_BOYACA" xml:space="preserve">
+  <value>Batalha de Boyacá</value>
+</data>
+  <data name="holiday_description_BRIDGING_HOLIDAY" xml:space="preserve">
+  <value>Ponte</value>
+</data>
+  <data name="holiday_description_BROOKLY_QUEENS" xml:space="preserve">
+  <value>Dia de Brooklyn-Queens</value>
+</data>
+  <data name="holiday_description_BUNKER_HILL" xml:space="preserve">
+  <value>Bunker Hill Day</value>
+</data>
+  <data name="holiday_description_CANBERRA_DAY" xml:space="preserve">
+  <value>Dia Canberra</value>
+</data>
+  <data name="holiday_description_CANDELARIA" xml:space="preserve">
+  <value>Fiesta de la Candelaria</value>
+</data>
+  <data name="holiday_description_CANDLEMAS" xml:space="preserve">
+  <value>Candlemas</value>
+</data>
+  <data name="holiday_description_CARABOBO" xml:space="preserve">
+  <value>Batalha de Carabobo</value>
+</data>
+  <data name="holiday_description_CARTAGENA" xml:space="preserve">
+  <value>Independência de Cartagena</value>
+</data>
+  <data name="holiday_description_CESAR_CHAVEZ" xml:space="preserve">
+  <value>Aniversário de César Chávez</value>
+</data>
+  <data name="holiday_description_CHACO_ARMISTICE" xml:space="preserve">
+  <value>Chaco Armistice</value>
+</data>
+  <data name="holiday_description_CHILDRENS_DAY" xml:space="preserve">
+  <value>Dia Mundial da Criança</value>
+</data>
+  <data name="holiday_description_CHRISTMAS" xml:space="preserve">
+  <value>Natal</value>
+</data>
+  <data name="holiday_description_CHRISTMAS_EVE" xml:space="preserve">
+  <value>Véspera de Natal
+# Specific property</value>
+</data>
+  <data name="holiday_description_CITY_DAY" xml:space="preserve">
+  <value>Feriado Municipal</value>
+</data>
+  <data name="holiday_description_CIVIC" xml:space="preserve">
+  <value>Dia Cívico</value>
+</data>
+  <data name="holiday_description_COLUMBUS_DAY" xml:space="preserve">
+  <value>Dia de Colombo</value>
+</data>
+  <data name="holiday_description_COMING_OF_AGE" xml:space="preserve">
+  <value>Coming Of Age Day</value>
+</data>
+  <data name="holiday_description_COMMERCE_DAY" xml:space="preserve">
+  <value>Dia do Comércio</value>
+</data>
+  <data name="holiday_description_CONFEDERATE" xml:space="preserve">
+  <value>Confederate Memorial Day</value>
+</data>
+  <data name="holiday_description_CONSOLIDATION" xml:space="preserve">
+  <value>Dia da Consolidação</value>
+</data>
+  <data name="holiday_description_CONSTITUTION_DAY" xml:space="preserve">
+  <value>Dia da Constituição</value>
+</data>
+  <data name="holiday_description_CONST_REVOLUTION" xml:space="preserve">
+  <value>Revolução Constitucionalista</value>
+</data>
+  <data name="holiday_description_CULTURE_DAY" xml:space="preserve">
+  <value>Dia da Cultura</value>
+</data>
+  <data name="holiday_description_CYBER_MONDAY" xml:space="preserve">
+  <value>Cyber Monday</value>
+</data>
+  <data name="holiday_description_CYRUS_METHODIUS" xml:space="preserve">
+  <value>Dia dos Santos Cyril e Methodius</value>
+</data>
+  <data name="holiday_description_DAYTON" xml:space="preserve">
+  <value>Acordo de Dayton</value>
+</data>
+  <data name="holiday_description_DEFENDER_FATHERLAND" xml:space="preserve">
+  <value>Defender of the Fatherland</value>
+</data>
+  <data name="holiday_description_EDU_CULTURE" xml:space="preserve">
+  <value>Dia da Educação, da Cultura e da Literatura</value>
+</data>
+  <data name="holiday_description_EIGHT" xml:space="preserve">
+  <value>Eight hours day</value>
+</data>
+  <data name="holiday_description_ELECTION" xml:space="preserve">
+  <value>Dia de Eleições</value>
+</data>
+  <data name="holiday_description_EMPERORS_BIRTHDAY" xml:space="preserve">
+  <value>Aniversário dos Imperadores</value>
+</data>
+  <data name="holiday_description_EMPIRE" xml:space="preserve">
+  <value>Dia do Império</value>
+</data>
+  <data name="holiday_description_EPIPHANY" xml:space="preserve">
+  <value>Epifânia</value>
+</data>
+  <data name="holiday_description_EVACUATION" xml:space="preserve">
+  <value>Evacuation Day</value>
+</data>
+  <data name="holiday_description_FAMILY_COMMUNITY" xml:space="preserve">
+  <value>Dia da Família e da Comunidade</value>
+</data>
+  <data name="holiday_description_FAMILY_DAY" xml:space="preserve">
+  <value>Dia da Família</value>
+</data>
+  <data name="holiday_description_FARROUS_REVOLUTION" xml:space="preserve">
+  <value>Revolução de Farroupilha</value>
+</data>
+  <data name="holiday_description_FIRST_DAY_SUMMER" xml:space="preserve">
+  <value>Solestício de Verão</value>
+</data>
+  <data name="holiday_description_FLAG_DAY" xml:space="preserve">
+  <value>Dia Nacional da Bandeira</value>
+</data>
+  <data name="holiday_description_FLORIAN" xml:space="preserve">
+  <value>Florian of Lorch's day</value>
+</data>
+  <data name="holiday_description_FOUNDATION" xml:space="preserve">
+  <value>Dia da Fundação</value>
+</data>
+  <data name="holiday_description_FOUNDING_ASUNCION" xml:space="preserve">
+  <value>Founding of Asunción</value>
+</data>
+  <data name="holiday_description_FOUND_QUITO" xml:space="preserve">
+  <value>Fundação de Quito</value>
+</data>
+  <data name="holiday_description_FREEDOM" xml:space="preserve">
+  <value>Dia da Liberdade</value>
+</data>
+  <data name="holiday_description_FREEDOM_DEMOCRACY" xml:space="preserve">
+  <value>Dia da Liberdade e da Democracia</value>
+</data>
+  <data name="holiday_description_FUNERAL_OF_PRESIDENT_REAGAN" xml:space="preserve">
+  <value>Funeral of President Reagan</value>
+</data>
+  <data name="holiday_description_GALICIAN_LITERATURE" xml:space="preserve">
+  <value>Galician Literature Day</value>
+</data>
+  <data name="holiday_description_GHANDIS_BIRTHDAY" xml:space="preserve">
+  <value>Aniversário de Ghandi</value>
+</data>
+  <data name="holiday_description_GOODWILL" xml:space="preserve">
+  <value>Dia da Boa Vontade</value>
+</data>
+  <data name="holiday_description_GOVERNMENT_CHANGE" xml:space="preserve">
+  <value>Change of Federal Government</value>
+</data>
+  <data name="holiday_description_GREENERY_DAY" xml:space="preserve">
+  <value>Greenery Day</value>
+</data>
+  <data name="holiday_description_GUANACASTE" xml:space="preserve">
+  <value>Dia de Guanacaste</value>
+</data>
+  <data name="holiday_description_HEALTH_SPORTS" xml:space="preserve">
+  <value>Dia da Saúde e do Desporto</value>
+</data>
+  <data name="holiday_description_HERITAGE" xml:space="preserve">
+  <value>Heritage day</value>
+</data>
+  <data name="holiday_description_HEROES" xml:space="preserve">
+  <value>Dia dos Heróis</value>
+</data>
+  <data name="holiday_description_HOBART" xml:space="preserve">
+  <value>Royal Hobart Regatta</value>
+</data>
+  <data name="holiday_description_HOMECOMING" xml:space="preserve">
+  <value>Homecoming Day</value>
+</data>
+  <data name="holiday_description_HUMAN_RIGHTS" xml:space="preserve">
+  <value>Dia dos Direitos Humanos</value>
+</data>
+  <data name="holiday_description_HURRICANE_SANDY" xml:space="preserve">
+  <value>Hurricane Sandy</value>
+</data>
+  <data name="holiday_description_HUS" xml:space="preserve">
+  <value>Dia de Jan Hus</value>
+</data>
+  <data name="holiday_description_HUSBANDS_DAY" xml:space="preserve">
+  <value>Dia do Marido</value>
+</data>
+  <data name="holiday_description_IMMACULATE_CONCEPTION" xml:space="preserve">
+  <value>Dia da Imaculada Concepção</value>
+</data>
+  <data name="holiday_description_IMPERIAL_DAY" xml:space="preserve">
+  <value>Event of imperial mourning or celebration</value>
+</data>
+  <data name="holiday_description_INDEPENDENCE" xml:space="preserve">
+  <value>Dia da Independência</value>
+</data>
+  <data name="holiday_description_INDEP_CUENCA" xml:space="preserve">
+  <value>Independência de Cuenca</value>
+</data>
+  <data name="holiday_description_INDEP_GUYAQUIL" xml:space="preserve">
+  <value>Independência de Guayaquil</value>
+</data>
+  <data name="holiday_description_INDEP_QUITO" xml:space="preserve">
+  <value>Independência de Quito</value>
+</data>
+  <data name="holiday_description_INDIGENOUS_RESISTANCE" xml:space="preserve">
+  <value>Day of the Indigenous Resistance</value>
+</data>
+  <data name="holiday_description_INTERNATIONAL_WOMAN" xml:space="preserve">
+  <value>Dia Internacional da Mulher</value>
+</data>
+  <data name="holiday_description_JEFFERSON_DAVIS" xml:space="preserve">
+  <value>Dia de Jefferson Davis</value>
+</data>
+  <data name="holiday_description_JOHANNIS_DAY" xml:space="preserve">
+  <value>Johannis day</value>
+</data>
+  <data name="holiday_description_JONSMESSA" xml:space="preserve">
+  <value>Jónsmessa</value>
+</data>
+  <data name="holiday_description_JOSEFS_DAY" xml:space="preserve">
+  <value>Dia de Josefa de Nazaré</value>
+</data>
+  <data name="holiday_description_JUAN_SANTAMARIA" xml:space="preserve">
+  <value>Dia de Juan Santamaria</value>
+</data>
+  <data name="holiday_description_JUAREZ_BIRTHDAY" xml:space="preserve">
+  <value>Aniversário de Benito Juárez</value>
+</data>
+  <data name="holiday_description_KALANIANAOLE" xml:space="preserve">
+  <value>Prince Jonah Kuhio Kalanianaole Day</value>
+</data>
+  <data name="holiday_description_KAMEHAMEHA" xml:space="preserve">
+  <value>Kamehameha Day</value>
+</data>
+  <data name="holiday_description_KINGS_DAY" xml:space="preserve">
+  <value>Aniversário do Rei</value>
+</data>
+  <data name="holiday_description_KINGS_FEAST" xml:space="preserve">
+  <value>Festival do Rei</value>
+</data>
+  <data name="holiday_description_KRUGER" xml:space="preserve">
+  <value>Dia Kruger</value>
+</data>
+  <data name="holiday_description_LABOUR_DAY" xml:space="preserve">
+  <value>Dia do Trabalhador</value>
+</data>
+  <data name="holiday_description_LADY_APRESENTACAO" xml:space="preserve">
+  <value>Nossa Senhora da Apresentação</value>
+</data>
+  <data name="holiday_description_LADY_CONCEICAO" xml:space="preserve">
+  <value>Nossa Senhora da Conceição</value>
+</data>
+  <data name="holiday_description_LADY_GOOD_VOYAGE" xml:space="preserve">
+  <value>Nossa Senhora da Boa Viagem</value>
+</data>
+  <data name="holiday_description_LADY_LIGHT_PINE" xml:space="preserve">
+  <value>Nossa Senhora da Luz e da Pinha</value>
+</data>
+  <data name="holiday_description_LANGUAGE_DAY" xml:space="preserve">
+  <value>Dia Nacional da Língua</value>
+</data>
+  <data name="holiday_description_LAS_PIEDRAS" xml:space="preserve">
+  <value>Batalha das Pedras</value>
+</data>
+  <data name="holiday_description_LEE_JACKSON" xml:space="preserve">
+  <value>Dia de Lee-Jackson</value>
+</data>
+  <data name="holiday_description_LEOPOLD" xml:space="preserve">
+  <value>Dia de Leopoldo III</value>
+</data>
+  <data name="holiday_description_LIBERATION" xml:space="preserve">
+  <value>Dia da Libertação</value>
+</data>
+  <data name="holiday_description_LINCOLN" xml:space="preserve">
+  <value>Aniversário de Lincoln</value>
+</data>
+  <data name="holiday_description_MALVINAS" xml:space="preserve">
+  <value>Dia das Malvinas</value>
+</data>
+  <data name="holiday_description_MARTINS_DAY" xml:space="preserve">
+  <value>Martin of Tours Day</value>
+</data>
+  <data name="holiday_description_MARTIN_DAY" xml:space="preserve">
+  <value>Dia de José de San Martín</value>
+</data>
+  <data name="holiday_description_MARTIN_LUTHER_KING" xml:space="preserve">
+  <value>Dia de Martin Luther King, Jr_</value>
+</data>
+  <data name="holiday_description_MARTYRS_DAY" xml:space="preserve">
+  <value>Dia dos Martires</value>
+</data>
+  <data name="holiday_description_MAY_DAY" xml:space="preserve">
+  <value>May Day</value>
+</data>
+  <data name="holiday_description_MAY_REVOLUTION" xml:space="preserve">
+  <value>Revolução de Maio</value>
+</data>
+  <data name="holiday_description_MELBOURNE_CUP" xml:space="preserve">
+  <value>Taça Melbourne</value>
+</data>
+  <data name="holiday_description_MEMORIAL" xml:space="preserve">
+  <value>Memorial Day</value>
+</data>
+  <data name="holiday_description_MIDSUMMER" xml:space="preserve">
+  <value>Dia do Solestício de Verão</value>
+</data>
+  <data name="holiday_description_MIDSUMMER_EVE" xml:space="preserve">
+  <value>Solestício de Verão</value>
+</data>
+  <data name="holiday_description_MOTHERS_DAY" xml:space="preserve">
+  <value>Dia da Mãe</value>
+</data>
+  <data name="holiday_description_MOTHER_TERESA" xml:space="preserve">
+  <value>Beatificação da Madre Teresa</value>
+</data>
+  <data name="holiday_description_NATIONAL_DAY" xml:space="preserve">
+  <value>Dia Nacional</value>
+</data>
+  <data name="holiday_description_NATIONAL_UPRISING" xml:space="preserve">
+  <value>National Uprising</value>
+</data>
+  <data name="holiday_description_NATIVITY_LADY" xml:space="preserve">
+  <value>Nativity of our Lady</value>
+</data>
+  <data name="holiday_description_NATIVITY_MARY" xml:space="preserve">
+  <value>Nativity of Mary</value>
+</data>
+  <data name="holiday_description_NAVY_DAY" xml:space="preserve">
+  <value>Navy day</value>
+</data>
+  <data name="holiday_description_NEVADA" xml:space="preserve">
+  <value>Dia do Nevada</value>
+</data>
+  <data name="holiday_description_NEW_YEAR" xml:space="preserve">
+  <value>Ano Novo</value>
+</data>
+  <data name="holiday_description_NEW_YEARS_EVE" xml:space="preserve">
+  <value>Passagem de ano</value>
+</data>
+  <data name="holiday_description_OCHI" xml:space="preserve">
+  <value>Dia de Ochi</value>
+</data>
+  <data name="holiday_description_OCT_REVOLUTION" xml:space="preserve">
+  <value>Dia da Revolução de Outubro</value>
+</data>
+  <data name="holiday_description_PATRIOT" xml:space="preserve">
+  <value>Patriots' Day</value>
+</data>
+  <data name="holiday_description_PEACE" xml:space="preserve">
+  <value>Festival da Paz</value>
+</data>
+  <data name="holiday_description_PICHINCHA" xml:space="preserve">
+  <value>Batalha Pichincha</value>
+</data>
+  <data name="holiday_description_PICNIC" xml:space="preserve">
+  <value>Picnic Day</value>
+</data>
+  <data name="holiday_description_PIONEER" xml:space="preserve">
+  <value>Dia do Pioneiro</value>
+</data>
+  <data name="holiday_description_PLEBISCITE" xml:space="preserve">
+  <value>Day of the plebiscite</value>
+</data>
+  <data name="holiday_description_PRESEREN" xml:space="preserve">
+  <value>Prešeren Day</value>
+</data>
+  <data name="holiday_description_PROCLAMATION" xml:space="preserve">
+  <value>Dia da Proclamação</value>
+</data>
+  <data name="holiday_description_PULASKI" xml:space="preserve">
+  <value>Casimir Pulaski Day</value>
+</data>
+  <data name="holiday_description_QUEENS_BIRTHDAY" xml:space="preserve">
+  <value>Aniversário da Rainha</value>
+</data>
+  <data name="holiday_description_RACE" xml:space="preserve">
+  <value>Dia da Corrida</value>
+</data>
+  <data name="holiday_description_RECONCILIATION" xml:space="preserve">
+  <value>Dia da Reconciliação</value>
+</data>
+  <data name="holiday_description_RECREATION" xml:space="preserve">
+  <value>Dia da Recriação</value>
+</data>
+  <data name="holiday_description_REFORMATION_DAY" xml:space="preserve">
+  <value>Dia da Reforma Protestante</value>
+</data>
+  <data name="holiday_description_REGIONAL" xml:space="preserve">
+  <value>Feriado Regional</value>
+</data>
+  <data name="holiday_description_REMEMBERANCE_OF_PRESIDENT_FORD" xml:space="preserve">
+  <value>Remembrance of President Ford</value>
+</data>
+  <data name="holiday_description_REMEMBRANCE" xml:space="preserve">
+  <value>Remembrance day</value>
+</data>
+  <data name="holiday_description_REMEMBRANCE_TRUTH_JUSTICE" xml:space="preserve">
+  <value>Dia Memorial da Verdade e da Justiça</value>
+</data>
+  <data name="holiday_description_REPENTANCE_PRAYER" xml:space="preserve">
+  <value>Dia do Arrependimento e da Oração</value>
+</data>
+  <data name="holiday_description_REPUBLIC_DAY" xml:space="preserve">
+  <value>Dia da República</value>
+</data>
+  <data name="holiday_description_RESPECT_AGED_DAY" xml:space="preserve">
+  <value>Respect-for-the-Aged Day</value>
+</data>
+  <data name="holiday_description_REST_INDEP" xml:space="preserve">
+  <value>Dia da Restauração da Independência</value>
+</data>
+  <data name="holiday_description_REVOLUTION" xml:space="preserve">
+  <value>Dia da Revolução</value>
+</data>
+  <data name="holiday_description_RIEBEECK" xml:space="preserve">
+  <value>Dia de Van Riebeeck</value>
+</data>
+  <data name="holiday_description_RUPERT" xml:space="preserve">
+  <value>Rupert of Salzburg's day</value>
+</data>
+  <data name="holiday_description_SAINT_CLEMENT" xml:space="preserve">
+  <value>Dia de Saint Clement de Ohrid</value>
+</data>
+  <data name="holiday_description_SAINT_PAUL_SHIPWRECK" xml:space="preserve">
+  <value>St_ Paul's shipwreck</value>
+</data>
+  <data name="holiday_description_SANTA_ANA" xml:space="preserve">
+  <value>Festa de de Santa Ana</value>
+</data>
+  <data name="holiday_description_SANTA_ROSA" xml:space="preserve">
+  <value>Sagrada Rosa de Lima</value>
+</data>
+  <data name="holiday_description_SANTIAGO" xml:space="preserve">
+  <value>Festa de Santiago</value>
+</data>
+  <data name="holiday_description_SANTO_DOMINGO" xml:space="preserve">
+  <value>Festa de Santo Domingo</value>
+</data>
+  <data name="holiday_description_SELF_GOVERNANCE" xml:space="preserve">
+  <value>Self-governance Day</value>
+</data>
+  <data name="holiday_description_SEPARATION" xml:space="preserve">
+  <value>Dia da Separação</value>
+</data>
+  <data name="holiday_description_SERVICE_REDUCTION" xml:space="preserve">
+  <value>Service Reduction Day</value>
+</data>
+  <data name="holiday_description_SETTE_GIUGNO" xml:space="preserve">
+  <value>Sette Giugno</value>
+</data>
+  <data name="holiday_description_SETTLER" xml:space="preserve">
+  <value>Settlers' Day</value>
+</data>
+  <data name="holiday_description_SEWARD" xml:space="preserve">
+  <value>Seward's Day</value>
+</data>
+  <data name="holiday_description_SHOWA_DAY" xml:space="preserve">
+  <value>Showa Day</value>
+</data>
+  <data name="holiday_description_SPRING_DAY" xml:space="preserve">
+  <value>Dia de Primaveira</value>
+</data>
+  <data name="holiday_description_STATEHOOD" xml:space="preserve">
+  <value>Statehood day</value>
+</data>
+  <data name="holiday_description_STEPHENS" xml:space="preserve">
+  <value>Dia de Santo Estêvão</value>
+</data>
+  <data name="holiday_description_ST_BERCHTHOLD" xml:space="preserve">
+  <value>Dia de St_ Berchtholds</value>
+</data>
+  <data name="holiday_description_ST_DEMETRIUS" xml:space="preserve">
+  <value>St_Demetrius' Day</value>
+</data>
+  <data name="holiday_description_ST_ELIJAH" xml:space="preserve">
+  <value>Dia de St_ Elijah</value>
+</data>
+  <data name="holiday_description_ST_GEORGE" xml:space="preserve">
+  <value>Dia de São Jorge</value>
+</data>
+  <data name="holiday_description_ST_JAMES" xml:space="preserve">
+  <value>Dia de St_ James</value>
+</data>
+  <data name="holiday_description_ST_JOHN" xml:space="preserve">
+  <value>Dia de St_ John</value>
+</data>
+  <data name="holiday_description_ST_JOSEPH" xml:space="preserve">
+  <value>Dia de St_ Josephs</value>
+</data>
+  <data name="holiday_description_ST_MARTIN" xml:space="preserve">
+  <value>Dia de St_ Martin</value>
+</data>
+  <data name="holiday_description_ST_NICHOLAS" xml:space="preserve">
+  <value>Dia de St_ Nicholas</value>
+</data>
+  <data name="holiday_description_ST_PATRICK" xml:space="preserve">
+  <value>Dia de Saint Patrício</value>
+</data>
+  <data name="holiday_description_ST_PETER" xml:space="preserve">
+  <value>Dia de St_ Peter</value>
+</data>
+  <data name="holiday_description_ST_PETER_PAUL" xml:space="preserve">
+  <value>Dia de St_ Peter e Paul</value>
+</data>
+  <data name="holiday_description_ST_SEBASTIAN" xml:space="preserve">
+  <value>São Sebastião</value>
+</data>
+  <data name="holiday_description_ST_VITUS" xml:space="preserve">
+  <value>Dia de St_ Vitus</value>
+</data>
+  <data name="holiday_description_THANKSGIVING" xml:space="preserve">
+  <value>Dia de Dar Graças</value>
+</data>
+  <data name="holiday_description_THEOPHANY" xml:space="preserve">
+  <value>Dia da Aparição</value>
+</data>
+  <data name="holiday_description_THREE_HIERARCHS" xml:space="preserve">
+  <value>The Three Holy Hierarchs</value>
+</data>
+  <data name="holiday_description_TIRADENTES" xml:space="preserve">
+  <value>Tiradentes' Day</value>
+</data>
+  <data name="holiday_description_TOURIST_TROPHY" xml:space="preserve">
+  <value>Tourist Trophy Senior Race Day</value>
+</data>
+  <data name="holiday_description_TRUMAN" xml:space="preserve">
+  <value>Truman Day</value>
+</data>
+  <data name="holiday_description_TYNWALD" xml:space="preserve">
+  <value>Tynwald Day</value>
+</data>
+  <data name="holiday_description_UNIFICATION" xml:space="preserve">
+  <value>Dia da Unificação</value>
+</data>
+  <data name="holiday_description_VETERANS" xml:space="preserve">
+  <value>Dia dos Veteranos</value>
+</data>
+  <data name="holiday_description_VICTORIA_DAY" xml:space="preserve">
+  <value>Queen Victorias Birthday</value>
+</data>
+  <data name="holiday_description_VICTORY" xml:space="preserve">
+  <value>Dia da Vitória</value>
+</data>
+  <data name="holiday_description_VICTORY_ADWA" xml:space="preserve">
+  <value>Vitória de Adwa Day</value>
+</data>
+  <data name="holiday_description_VICTORY_DAY" xml:space="preserve">
+  <value>Wars end in Europe</value>
+</data>
+  <data name="holiday_description_VIRGIN_CARMEN" xml:space="preserve">
+  <value>Dia da Virgem Carmen</value>
+</data>
+  <data name="holiday_description_VIRGIN_MARY" xml:space="preserve">
+  <value>Dia da Virgem Maria</value>
+</data>
+  <data name="holiday_description_WASHINGTONS_BIRTHDAY" xml:space="preserve">
+  <value>Aniversário de Washington</value>
+</data>
+  <data name="holiday_description_WENCELAS" xml:space="preserve">
+  <value>Dia de St_ Wenceslas</value>
+</data>
+  <data name="holiday_description_WEST_VIRGINIA" xml:space="preserve">
+  <value>Dia de West Virginia</value>
+</data>
+  <data name="holiday_description_YOUTH" xml:space="preserve">
+  <value>Dia da Juventude</value>
+</data>
+  <data name="holiday_description_christian_ASCENSION_DAY" xml:space="preserve">
+  <value>Dia da Ascensão</value>
+</data>
+  <data name="holiday_description_christian_ASH_WEDNESDAY" xml:space="preserve">
+  <value>Quarta-feira de Cinzas</value>
+</data>
+  <data name="holiday_description_christian_CARNIVAL" xml:space="preserve">
+  <value>Carnaval</value>
+</data>
+  <data name="holiday_description_christian_CLEAN_MONDAY" xml:space="preserve">
+  <value>Segunda-feira de Cinzas</value>
+</data>
+  <data name="holiday_description_christian_CORPUS_CHRISTI" xml:space="preserve">
+  <value>Corpo de Deus</value>
+</data>
+  <data name="holiday_description_christian_EASTER" xml:space="preserve">
+  <value>Páscoa</value>
+</data>
+  <data name="holiday_description_christian_EASTER_MONDAY" xml:space="preserve">
+  <value>Segunda-feira de Páscoa</value>
+</data>
+  <data name="holiday_description_christian_EASTER_SATURDAY" xml:space="preserve">
+  <value>Sábado de Páscoa</value>
+</data>
+  <data name="holiday_description_christian_EASTER_TUESDAY" xml:space="preserve">
+  <value>Terça-feira de Páscoa</value>
+</data>
+  <data name="holiday_description_christian_GENERAL_PRAYER_DAY" xml:space="preserve">
+  <value>Dia da Oração</value>
+</data>
+  <data name="holiday_description_christian_GOOD_FRIDAY" xml:space="preserve">
+  <value>Sexta-feira Santa</value>
+</data>
+  <data name="holiday_description_christian_MARDI_GRAS" xml:space="preserve">
+  <value>Carnaval</value>
+</data>
+  <data name="holiday_description_christian_MAUNDY_THURSDAY" xml:space="preserve">
+  <value>Quinta-feira Santa</value>
+</data>
+  <data name="holiday_description_christian_PENTECOST" xml:space="preserve">
+  <value>Pentecostes</value>
+</data>
+  <data name="holiday_description_christian_PENTECOST_MONDAY" xml:space="preserve">
+  <value>Segunda-feira de Pentecostes</value>
+</data>
+  <data name="holiday_description_christian_SACRED_HEART" xml:space="preserve">
+  <value>Sagrado Coração </value>
+</data>
+  <data name="holiday_description_christian_SHROVE_MONDAY" xml:space="preserve">
+  <value>Segunda-feira de Carnaval</value>
+</data>
+  <data name="holiday_description_christian_WHIT_MONDAY" xml:space="preserve">
+  <value>Segunda-feira de Pentecostes</value>
+</data>
+  <data name="holiday_description_christian_WHIT_SUNDAY" xml:space="preserve">
+  <value>Domingo de Pentecostes</value>
+</data>
+  <data name="holiday_description_ethiopian_orthodox_ENKUTATASH" xml:space="preserve">
+  <value>Enkutatash</value>
+</data>
+  <data name="holiday_description_ethiopian_orthodox_MESKEL" xml:space="preserve">
+  <value>Meskel</value>
+</data>
+  <data name="holiday_description_ethiopian_orthodox_TIMKAT" xml:space="preserve">
+  <value>Timkat</value>
+</data>
+  <data name="holiday_description_islamic_ASCHURA" xml:space="preserve">
+  <value>Ashura</value>
+</data>
+  <data name="holiday_description_islamic_ID_AL_FITR" xml:space="preserve">
+  <value>Eid ul-Fitr</value>
+</data>
+  <data name="holiday_description_islamic_ID_UL_ADHA" xml:space="preserve">
+  <value>Eid ul-Adha</value>
+</data>
+  <data name="holiday_description_islamic_LAILAT_AL_BARAT" xml:space="preserve">
+  <value>Lailat al-Baraat</value>
+</data>
+  <data name="holiday_description_islamic_LAILAT_AL_MIRAJ" xml:space="preserve">
+  <value>Lailat al Miraj</value>
+</data>
+  <data name="holiday_description_islamic_LAILAT_AL_QADR" xml:space="preserve">
+  <value>Laylat al-Qadr</value>
+</data>
+  <data name="holiday_description_islamic_MAWLID_AN_NABI" xml:space="preserve">
+  <value>Mawlid an-Nabi</value>
+</data>
+  <data name="holiday_description_islamic_NEWYEAR" xml:space="preserve">
+  <value>Ano Novo Islâmico</value>
+</data>
+  <data name="holiday_description_islamic_RAMADAN" xml:space="preserve">
+  <value>Ramadão</value>
+</data>
+  <data name="country_description_ad" xml:space="preserve">
+  <value>Andorra</value>
+</data>
+  <data name="country_description_ae" xml:space="preserve">
+  <value>Emirados Árabes Unidos</value>
+</data>
+  <data name="country_description_af" xml:space="preserve">
+  <value>Afeganistão</value>
+</data>
+  <data name="country_description_ag" xml:space="preserve">
+  <value>Antígua e Barbuda</value>
+</data>
+  <data name="country_description_ai" xml:space="preserve">
+  <value>Anguilha</value>
+</data>
+  <data name="country_description_al" xml:space="preserve">
+  <value>Albânia</value>
+</data>
+  <data name="country_description_am" xml:space="preserve">
+  <value>Arménia</value>
+</data>
+  <data name="country_description_an" xml:space="preserve">
+  <value>Antilhas Neerlandesas</value>
+</data>
+  <data name="country_description_ao" xml:space="preserve">
+  <value>Angola</value>
+</data>
+  <data name="country_description_aq" xml:space="preserve">
+  <value>Antárctica</value>
+</data>
+  <data name="country_description_ar" xml:space="preserve">
+  <value>Argentina</value>
+</data>
+  <data name="country_description_as" xml:space="preserve">
+  <value>Samoa Americana</value>
+</data>
+  <data name="country_description_at" xml:space="preserve">
+  <value>Áustria</value>
+</data>
+  <data name="country_description_at_b" xml:space="preserve">
+  <value>Burgenland</value>
+</data>
+  <data name="country_description_at_k" xml:space="preserve">
+  <value>Kärnten</value>
+</data>
+  <data name="country_description_at_la" xml:space="preserve">
+  <value>Lower Austria</value>
+</data>
+  <data name="country_description_at_s" xml:space="preserve">
+  <value>Salzburg</value>
+</data>
+  <data name="country_description_at_st" xml:space="preserve">
+  <value>Steiermark</value>
+</data>
+  <data name="country_description_at_t" xml:space="preserve">
+  <value>Tirol</value>
+</data>
+  <data name="country_description_at_ua" xml:space="preserve">
+  <value>Upper Austria</value>
+</data>
+  <data name="country_description_at_va" xml:space="preserve">
+  <value>Vorarlberg</value>
+</data>
+  <data name="country_description_at_w" xml:space="preserve">
+  <value>Vienna</value>
+</data>
+  <data name="country_description_au" xml:space="preserve">
+  <value>Austrália</value>
+</data>
+  <data name="country_description_au_act" xml:space="preserve">
+  <value>Território da Capital Australiana</value>
+</data>
+  <data name="country_description_au_nsw" xml:space="preserve">
+  <value>Nova Gales do Sul</value>
+</data>
+  <data name="country_description_au_nt" xml:space="preserve">
+  <value>Território do Norte</value>
+</data>
+  <data name="country_description_au_qld" xml:space="preserve">
+  <value>Queensland</value>
+</data>
+  <data name="country_description_au_sa" xml:space="preserve">
+  <value>Austrália Meridional</value>
+</data>
+  <data name="country_description_au_tas" xml:space="preserve">
+  <value>Tasmânia</value>
+</data>
+  <data name="country_description_au_tas_ho" xml:space="preserve">
+  <value>Hobard Area</value>
+</data>
+  <data name="country_description_au_tas_nh" xml:space="preserve">
+  <value>Non-Hobard Area</value>
+</data>
+  <data name="country_description_au_vic" xml:space="preserve">
+  <value>Vitória</value>
+</data>
+  <data name="country_description_au_wa" xml:space="preserve">
+  <value>Austrália Ocidental</value>
+</data>
+  <data name="country_description_aw" xml:space="preserve">
+  <value>Aruba</value>
+</data>
+  <data name="country_description_ax" xml:space="preserve">
+  <value>Ilhas Aland</value>
+</data>
+  <data name="country_description_az" xml:space="preserve">
+  <value>Azerbaijão</value>
+</data>
+  <data name="country_description_ba" xml:space="preserve">
+  <value>Bósnia e Herzegóvina</value>
+</data>
+  <data name="country_description_ba_fbh" xml:space="preserve">
+  <value>Federação Bósnia e Herzegóvina</value>
+</data>
+  <data name="country_description_ba_rs" xml:space="preserve">
+  <value>República da Sérvia</value>
+</data>
+  <data name="country_description_bb" xml:space="preserve">
+  <value>Barbados</value>
+</data>
+  <data name="country_description_bd" xml:space="preserve">
+  <value>Bangladeche</value>
+</data>
+  <data name="country_description_be" xml:space="preserve">
+  <value>Bélgica</value>
+</data>
+  <data name="country_description_bf" xml:space="preserve">
+  <value>Burquina Fasso</value>
+</data>
+  <data name="country_description_bg" xml:space="preserve">
+  <value>Bulgária</value>
+</data>
+  <data name="country_description_bh" xml:space="preserve">
+  <value>Reino do Barém</value>
+</data>
+  <data name="country_description_bi" xml:space="preserve">
+  <value>Burúndi</value>
+</data>
+  <data name="country_description_bj" xml:space="preserve">
+  <value>República do Benim</value>
+</data>
+  <data name="country_description_bm" xml:space="preserve">
+  <value>Ilhas Bermudas</value>
+</data>
+  <data name="country_description_bn" xml:space="preserve">
+  <value>Brunei</value>
+</data>
+  <data name="country_description_bo" xml:space="preserve">
+  <value>Bolívia</value>
+</data>
+  <data name="country_description_br" xml:space="preserve">
+  <value>Brasil</value>
+</data>
+  <data name="country_description_br_go" xml:space="preserve">
+  <value>Goiás</value>
+</data>
+  <data name="country_description_br_mg" xml:space="preserve">
+  <value>Minas Gerais</value>
+</data>
+  <data name="country_description_br_mg_bh" xml:space="preserve">
+  <value>Belo Horizonte</value>
+</data>
+  <data name="country_description_br_ms" xml:space="preserve">
+  <value>Mato Grosso do Sul</value>
+</data>
+  <data name="country_description_br_ms_cg" xml:space="preserve">
+  <value>Campo Grande</value>
+</data>
+  <data name="country_description_br_ms_do" xml:space="preserve">
+  <value>Dourados</value>
+</data>
+  <data name="country_description_br_pe" xml:space="preserve">
+  <value>Pernambuco</value>
+</data>
+  <data name="country_description_br_pr" xml:space="preserve">
+  <value>Parana</value>
+</data>
+  <data name="country_description_br_pr_cu" xml:space="preserve">
+  <value>Curitiba</value>
+</data>
+  <data name="country_description_br_rj" xml:space="preserve">
+  <value>Rio de Janeiro</value>
+</data>
+  <data name="country_description_br_rj_crj" xml:space="preserve">
+  <value>City of Rio de Janeiro</value>
+</data>
+  <data name="country_description_br_rn" xml:space="preserve">
+  <value>Rio Grande do Norte</value>
+</data>
+  <data name="country_description_br_rn_na" xml:space="preserve">
+  <value>Natal</value>
+</data>
+  <data name="country_description_br_rs" xml:space="preserve">
+  <value>Rio Grande do Sul</value>
+</data>
+  <data name="country_description_br_rs_sm" xml:space="preserve">
+  <value>Santa Maria</value>
+</data>
+  <data name="country_description_br_s" xml:space="preserve">
+  <value>Sao Paulo</value>
+</data>
+  <data name="country_description_br_s_cs" xml:space="preserve">
+  <value>City of Sao Paulo</value>
+</data>
+  <data name="country_description_bs" xml:space="preserve">
+  <value>Baamas</value>
+</data>
+  <data name="country_description_bt" xml:space="preserve">
+  <value>Reino do Butão</value>
+</data>
+  <data name="country_description_bv" xml:space="preserve">
+  <value>Ilha Bouvet</value>
+</data>
+  <data name="country_description_bw" xml:space="preserve">
+  <value>Botsuana</value>
+</data>
+  <data name="country_description_by" xml:space="preserve">
+  <value>Bielorrússia</value>
+</data>
+  <data name="country_description_bz" xml:space="preserve">
+  <value>Belize</value>
+</data>
+  <data name="country_description_ca" xml:space="preserve">
+  <value>Canadá</value>
+</data>
+  <data name="country_description_ca_ab" xml:space="preserve">
+  <value>Alberta</value>
+</data>
+  <data name="country_description_ca_bc" xml:space="preserve">
+  <value>Colúmbia Britânica</value>
+</data>
+  <data name="country_description_ca_mb" xml:space="preserve">
+  <value>Manitoba</value>
+</data>
+  <data name="country_description_ca_nb" xml:space="preserve">
+  <value>New Brunswick</value>
+</data>
+  <data name="country_description_ca_nl" xml:space="preserve">
+  <value>Newfoundland and Labrador</value>
+</data>
+  <data name="country_description_ca_ns" xml:space="preserve">
+  <value>Nova Escócia</value>
+</data>
+  <data name="country_description_ca_nt" xml:space="preserve">
+  <value>Northwest Territories</value>
+</data>
+  <data name="country_description_ca_nu" xml:space="preserve">
+  <value>Nunavut</value>
+</data>
+  <data name="country_description_ca_on" xml:space="preserve">
+  <value>Ontário</value>
+</data>
+  <data name="country_description_ca_pe" xml:space="preserve">
+  <value>Ilha do Princípe Eduardo</value>
+</data>
+  <data name="country_description_ca_qc" xml:space="preserve">
+  <value>Quebeque</value>
+</data>
+  <data name="country_description_ca_sk" xml:space="preserve">
+  <value>Saskatchewan</value>
+</data>
+  <data name="country_description_ca_yt" xml:space="preserve">
+  <value>Yukon</value>
+</data>
+  <data name="country_description_cc" xml:space="preserve">
+  <value>Ilhas Cocos (Keeling)</value>
+</data>
+  <data name="country_description_cd" xml:space="preserve">
+  <value>República Democrática do Congo (anterior Zaire)</value>
+</data>
+  <data name="country_description_cf" xml:space="preserve">
+  <value>República Centro-Africana</value>
+</data>
+  <data name="country_description_cg" xml:space="preserve">
+  <value>República do Congo</value>
+</data>
+  <data name="country_description_ch" xml:space="preserve">
+  <value>Suíca</value>
+</data>
+  <data name="country_description_ch_ag" xml:space="preserve">
+  <value>Aargau</value>
+</data>
+  <data name="country_description_ch_ai" xml:space="preserve">
+  <value>Appenzell Innerrhoden</value>
+</data>
+  <data name="country_description_ch_ar" xml:space="preserve">
+  <value>Appenzell Ausserrhoden</value>
+</data>
+  <data name="country_description_ch_be" xml:space="preserve">
+  <value>Berna</value>
+</data>
+  <data name="country_description_ch_bl" xml:space="preserve">
+  <value>Basel-Country</value>
+</data>
+  <data name="country_description_ch_bs" xml:space="preserve">
+  <value>Basel-City</value>
+</data>
+  <data name="country_description_ch_fr" xml:space="preserve">
+  <value>Fribourg</value>
+</data>
+  <data name="country_description_ch_ge" xml:space="preserve">
+  <value>Geneva</value>
+</data>
+  <data name="country_description_ch_gl" xml:space="preserve">
+  <value>Glarus</value>
+</data>
+  <data name="country_description_ch_gr" xml:space="preserve">
+  <value>Graubænden</value>
+</data>
+  <data name="country_description_ch_ju" xml:space="preserve">
+  <value>Jura</value>
+</data>
+  <data name="country_description_ch_lu" xml:space="preserve">
+  <value>Lucerne</value>
+</data>
+  <data name="country_description_ch_ne" xml:space="preserve">
+  <value>Neuchatel</value>
+</data>
+  <data name="country_description_ch_nw" xml:space="preserve">
+  <value>Nidwalden</value>
+</data>
+  <data name="country_description_ch_ow" xml:space="preserve">
+  <value>Obwalden</value>
+</data>
+  <data name="country_description_ch_sg" xml:space="preserve">
+  <value>St_Gallen</value>
+</data>
+  <data name="country_description_ch_sh" xml:space="preserve">
+  <value>Schaffhausen</value>
+</data>
+  <data name="country_description_ch_so" xml:space="preserve">
+  <value>Solothurn</value>
+</data>
+  <data name="country_description_ch_sz" xml:space="preserve">
+  <value>Schwyz</value>
+</data>
+  <data name="country_description_ch_tg" xml:space="preserve">
+  <value>Thurgau</value>
+</data>
+  <data name="country_description_ch_ti" xml:space="preserve">
+  <value>Ticino</value>
+</data>
+  <data name="country_description_ch_ur" xml:space="preserve">
+  <value>Uri</value>
+</data>
+  <data name="country_description_ch_vd" xml:space="preserve">
+  <value>Vaud</value>
+</data>
+  <data name="country_description_ch_vs" xml:space="preserve">
+  <value>Valais</value>
+</data>
+  <data name="country_description_ch_zg" xml:space="preserve">
+  <value>Zug</value>
+</data>
+  <data name="country_description_ch_zh" xml:space="preserve">
+  <value>Zurique</value>
+</data>
+  <data name="country_description_ci" xml:space="preserve">
+  <value>Costa do Marfim</value>
+</data>
+  <data name="country_description_ck" xml:space="preserve">
+  <value>Ilhas Cook</value>
+</data>
+  <data name="country_description_cl" xml:space="preserve">
+  <value>Chile</value>
+</data>
+  <data name="country_description_cm" xml:space="preserve">
+  <value>Camarões</value>
+</data>
+  <data name="country_description_cn" xml:space="preserve">
+  <value>China</value>
+</data>
+  <data name="country_description_co" xml:space="preserve">
+  <value>Colômbia</value>
+</data>
+  <data name="country_description_cr" xml:space="preserve">
+  <value>Costa Rica</value>
+</data>
+  <data name="country_description_cu" xml:space="preserve">
+  <value>Cuba</value>
+</data>
+  <data name="country_description_cv" xml:space="preserve">
+  <value>Cabo Verde</value>
+</data>
+  <data name="country_description_cx" xml:space="preserve">
+  <value>Ilha  do Natal</value>
+</data>
+  <data name="country_description_cy" xml:space="preserve">
+  <value>Chipre</value>
+</data>
+  <data name="country_description_cz" xml:space="preserve">
+  <value>República Checa</value>
+</data>
+  <data name="country_description_de" xml:space="preserve">
+  <value>Alemanha</value>
+</data>
+  <data name="country_description_de_b" xml:space="preserve">
+  <value>Berlim</value>
+</data>
+  <data name="country_description_de_bb" xml:space="preserve">
+  <value>Brandenburgo</value>
+</data>
+  <data name="country_description_de_bw" xml:space="preserve">
+  <value>Baden-Wörtemberg</value>
+</data>
+  <data name="country_description_de_by" xml:space="preserve">
+  <value>Bavária</value>
+</data>
+  <data name="country_description_de_by_ag" xml:space="preserve">
+  <value>Augsburg</value>
+</data>
+  <data name="country_description_de_by_in" xml:space="preserve">
+  <value>Ingolstadt</value>
+</data>
+  <data name="country_description_de_by_mu" xml:space="preserve">
+  <value>Munich</value>
+</data>
+  <data name="country_description_de_by_re" xml:space="preserve">
+  <value>Regensburg</value>
+</data>
+  <data name="country_description_de_by_wu" xml:space="preserve">
+  <value>Würzburg</value>
+</data>
+  <data name="country_description_de_hb" xml:space="preserve">
+  <value>Bremen</value>
+</data>
+  <data name="country_description_de_he" xml:space="preserve">
+  <value>Hesse</value>
+</data>
+  <data name="country_description_de_hh" xml:space="preserve">
+  <value>Hamburgo</value>
+</data>
+  <data name="country_description_de_mv" xml:space="preserve">
+  <value>Mecklenburg-Vorpommern</value>
+</data>
+  <data name="country_description_de_ni" xml:space="preserve">
+  <value>Lower Saxony</value>
+</data>
+  <data name="country_description_de_nw" xml:space="preserve">
+  <value>North Rhine-Westphalia</value>
+</data>
+  <data name="country_description_de_rp" xml:space="preserve">
+  <value>Rhineland-Palatinate</value>
+</data>
+  <data name="country_description_de_sh" xml:space="preserve">
+  <value>Schleswig-Holstein</value>
+</data>
+  <data name="country_description_de_sl" xml:space="preserve">
+  <value>Saarland</value>
+</data>
+  <data name="country_description_de_sn" xml:space="preserve">
+  <value>Saxony</value>
+</data>
+  <data name="country_description_de_st" xml:space="preserve">
+  <value>Saxony-Anhalt</value>
+</data>
+  <data name="country_description_de_th" xml:space="preserve">
+  <value>Thuringia</value>
+</data>
+  <data name="country_description_dj" xml:space="preserve">
+  <value>Jibuti</value>
+</data>
+  <data name="country_description_dk" xml:space="preserve">
+  <value>Dinamarca</value>
+</data>
+  <data name="country_description_dm" xml:space="preserve">
+  <value>Domínica</value>
+</data>
+  <data name="country_description_do" xml:space="preserve">
+  <value>República Dominicana</value>
+</data>
+  <data name="country_description_dz" xml:space="preserve">
+  <value>Algéria</value>
+</data>
+  <data name="country_description_ec" xml:space="preserve">
+  <value>Equador</value>
+</data>
+  <data name="country_description_ee" xml:space="preserve">
+  <value>Estónia</value>
+</data>
+  <data name="country_description_eg" xml:space="preserve">
+  <value>Egipto</value>
+</data>
+  <data name="country_description_eh" xml:space="preserve">
+  <value>Saara Ocidental</value>
+</data>
+  <data name="country_description_er" xml:space="preserve">
+  <value>Eritreia</value>
+</data>
+  <data name="country_description_es" xml:space="preserve">
+  <value>Espanha</value>
+</data>
+  <data name="country_description_et" xml:space="preserve">
+  <value>Etiópia</value>
+</data>
+  <data name="country_description_fi" xml:space="preserve">
+  <value>Finlândia</value>
+</data>
+  <data name="country_description_fj" xml:space="preserve">
+  <value>Fiji</value>
+</data>
+  <data name="country_description_fk" xml:space="preserve">
+  <value>Ilhas Malvinas</value>
+</data>
+  <data name="country_description_fm" xml:space="preserve">
+  <value>Estados federados da Micronésia</value>
+</data>
+  <data name="country_description_fo" xml:space="preserve">
+  <value>Ilhas Faroé</value>
+</data>
+  <data name="country_description_fr" xml:space="preserve">
+  <value>França</value>
+</data>
+  <data name="country_description_fr_br" xml:space="preserve">
+  <value>Bas-Rhin</value>
+</data>
+  <data name="country_description_fr_gu" xml:space="preserve">
+  <value>Guadalupe</value>
+</data>
+  <data name="country_description_fr_gy" xml:space="preserve">
+  <value>Guiana Francesa</value>
+</data>
+  <data name="country_description_fr_hr" xml:space="preserve">
+  <value>Haut-Rhin</value>
+</data>
+  <data name="country_description_fr_lr" xml:space="preserve">
+  <value>Reunião</value>
+</data>
+  <data name="country_description_fr_ma" xml:space="preserve">
+  <value>Martinica</value>
+</data>
+  <data name="country_description_fr_mo" xml:space="preserve">
+  <value>Moselle</value>
+</data>
+  <data name="country_description_ga" xml:space="preserve">
+  <value>Gabão</value>
+</data>
+  <data name="country_description_gb" xml:space="preserve">
+  <value>Reino Unido</value>
+</data>
+  <data name="country_description_gd" xml:space="preserve">
+  <value>Granada</value>
+</data>
+  <data name="country_description_ge" xml:space="preserve">
+  <value>Geórgia</value>
+</data>
+  <data name="country_description_gf" xml:space="preserve">
+  <value>Guiana Francesa</value>
+</data>
+  <data name="country_description_gg" xml:space="preserve">
+  <value>Guernsey</value>
+</data>
+  <data name="country_description_gh" xml:space="preserve">
+  <value>Gana</value>
+</data>
+  <data name="country_description_gi" xml:space="preserve">
+  <value>Gibraltar</value>
+</data>
+  <data name="country_description_gl" xml:space="preserve">
+  <value>Gronelândia</value>
+</data>
+  <data name="country_description_gm" xml:space="preserve">
+  <value>Gâmbia</value>
+</data>
+  <data name="country_description_gn" xml:space="preserve">
+  <value>Guiné</value>
+</data>
+  <data name="country_description_gp" xml:space="preserve">
+  <value>Guadalupe</value>
+</data>
+  <data name="country_description_gq" xml:space="preserve">
+  <value>Guiné Equatorial</value>
+</data>
+  <data name="country_description_gr" xml:space="preserve">
+  <value>Grécia</value>
+</data>
+  <data name="country_description_gs" xml:space="preserve">
+  <value>Ilhas Geórgia do Sul e Sanduíche do Sul</value>
+</data>
+  <data name="country_description_gt" xml:space="preserve">
+  <value>Guatemala</value>
+</data>
+  <data name="country_description_gu" xml:space="preserve">
+  <value>Guão</value>
+</data>
+  <data name="country_description_gw" xml:space="preserve">
+  <value>Guiné-Bissau</value>
+</data>
+  <data name="country_description_gy" xml:space="preserve">
+  <value>Guiana</value>
+</data>
+  <data name="country_description_hk" xml:space="preserve">
+  <value>Honguecongue</value>
+</data>
+  <data name="country_description_hm" xml:space="preserve">
+  <value>Ilhas Heard e Ilhas McDonald</value>
+</data>
+  <data name="country_description_hn" xml:space="preserve">
+  <value>Honduras</value>
+</data>
+  <data name="country_description_hr" xml:space="preserve">
+  <value>Croácia</value>
+</data>
+  <data name="country_description_ht" xml:space="preserve">
+  <value>Haiti</value>
+</data>
+  <data name="country_description_hu" xml:space="preserve">
+  <value>Hungria</value>
+</data>
+  <data name="country_description_id" xml:space="preserve">
+  <value>Indonésia</value>
+</data>
+  <data name="country_description_ie" xml:space="preserve">
+  <value>Irlanda</value>
+</data>
+  <data name="country_description_il" xml:space="preserve">
+  <value>Israel</value>
+</data>
+  <data name="country_description_im" xml:space="preserve">
+  <value>Ilha de Man</value>
+</data>
+  <data name="country_description_in" xml:space="preserve">
+  <value>Índia</value>
+</data>
+  <data name="country_description_in_an" xml:space="preserve">
+  <value>Andaman and Nicobar Islands</value>
+</data>
+  <data name="country_description_in_ap" xml:space="preserve">
+  <value>Andhra Pradesh</value>
+</data>
+  <data name="country_description_in_ar" xml:space="preserve">
+  <value>Arunachal Pradesh</value>
+</data>
+  <data name="country_description_in_as" xml:space="preserve">
+  <value>Assam</value>
+</data>
+  <data name="country_description_in_br" xml:space="preserve">
+  <value>Bihar</value>
+</data>
+  <data name="country_description_in_ch" xml:space="preserve">
+  <value>Chandigarh</value>
+</data>
+  <data name="country_description_in_ct" xml:space="preserve">
+  <value>Chhattisgarh</value>
+</data>
+  <data name="country_description_in_dd" xml:space="preserve">
+  <value>Daman and Diu</value>
+</data>
+  <data name="country_description_in_dl" xml:space="preserve">
+  <value>Déli</value>
+</data>
+  <data name="country_description_in_dn" xml:space="preserve">
+  <value>Dadra and Nagar Haveli</value>
+</data>
+  <data name="country_description_in_ga" xml:space="preserve">
+  <value>Goa</value>
+</data>
+  <data name="country_description_in_gj" xml:space="preserve">
+  <value>Gujarat</value>
+</data>
+  <data name="country_description_in_hp" xml:space="preserve">
+  <value>Himachal Pradesh</value>
+</data>
+  <data name="country_description_in_hr" xml:space="preserve">
+  <value>Haryana</value>
+</data>
+  <data name="country_description_in_jh" xml:space="preserve">
+  <value>Jharkhand</value>
+</data>
+  <data name="country_description_in_jk" xml:space="preserve">
+  <value>Jammu and Kashmir</value>
+</data>
+  <data name="country_description_in_ka" xml:space="preserve">
+  <value>Karnataka</value>
+</data>
+  <data name="country_description_in_kl" xml:space="preserve">
+  <value>Kerala</value>
+</data>
+  <data name="country_description_in_ld" xml:space="preserve">
+  <value>Lakshadweep</value>
+</data>
+  <data name="country_description_in_mh" xml:space="preserve">
+  <value>Maharashtra</value>
+</data>
+  <data name="country_description_in_ml" xml:space="preserve">
+  <value>Meghalaya</value>
+</data>
+  <data name="country_description_in_mn" xml:space="preserve">
+  <value>Manipur</value>
+</data>
+  <data name="country_description_in_mp" xml:space="preserve">
+  <value>Madhya Pradesh</value>
+</data>
+  <data name="country_description_in_mz" xml:space="preserve">
+  <value>Mizoram</value>
+</data>
+  <data name="country_description_in_nl" xml:space="preserve">
+  <value>Nagaland</value>
+</data>
+  <data name="country_description_in_or" xml:space="preserve">
+  <value>Orissa</value>
+</data>
+  <data name="country_description_in_pb" xml:space="preserve">
+  <value>Punjab</value>
+</data>
+  <data name="country_description_in_py" xml:space="preserve">
+  <value>Puducherry</value>
+</data>
+  <data name="country_description_in_rj" xml:space="preserve">
+  <value>Rajasthan</value>
+</data>
+  <data name="country_description_in_sk" xml:space="preserve">
+  <value>Sikkim</value>
+</data>
+  <data name="country_description_in_tn" xml:space="preserve">
+  <value>Tamil Nadu</value>
+</data>
+  <data name="country_description_in_tr" xml:space="preserve">
+  <value>Tripura</value>
+</data>
+  <data name="country_description_in_ul" xml:space="preserve">
+  <value>Uttarakhand</value>
+</data>
+  <data name="country_description_in_up" xml:space="preserve">
+  <value>Uttar Pradesh</value>
+</data>
+  <data name="country_description_in_wb" xml:space="preserve">
+  <value>West Bengal</value>
+</data>
+  <data name="country_description_io" xml:space="preserve">
+  <value>Território Britânico do Oceano Índico</value>
+</data>
+  <data name="country_description_iq" xml:space="preserve">
+  <value>Iraque</value>
+</data>
+  <data name="country_description_ir" xml:space="preserve">
+  <value>Irão</value>
+</data>
+  <data name="country_description_is" xml:space="preserve">
+  <value>Islândia</value>
+</data>
+  <data name="country_description_it" xml:space="preserve">
+  <value>Itália</value>
+</data>
+  <data name="country_description_it_bz" xml:space="preserve">
+  <value>Tirol do Sul</value>
+</data>
+  <data name="country_description_je" xml:space="preserve">
+  <value>Jérsia</value>
+</data>
+  <data name="country_description_jm" xml:space="preserve">
+  <value>Jamaica</value>
+</data>
+  <data name="country_description_jo" xml:space="preserve">
+  <value>Jordânia</value>
+</data>
+  <data name="country_description_jp" xml:space="preserve">
+  <value>Japão</value>
+</data>
+  <data name="country_description_ke" xml:space="preserve">
+  <value>Quénia</value>
+</data>
+  <data name="country_description_kg" xml:space="preserve">
+  <value>Quirguizistão</value>
+</data>
+  <data name="country_description_kh" xml:space="preserve">
+  <value>Camboja</value>
+</data>
+  <data name="country_description_ki" xml:space="preserve">
+  <value>Kiribati</value>
+</data>
+  <data name="country_description_km" xml:space="preserve">
+  <value>Comores</value>
+</data>
+  <data name="country_description_kn" xml:space="preserve">
+  <value>São Cristóvão e Neves</value>
+</data>
+  <data name="country_description_kp" xml:space="preserve">
+  <value>Coreia do Norte</value>
+</data>
+  <data name="country_description_kr" xml:space="preserve">
+  <value>Coreia do Sul</value>
+</data>
+  <data name="country_description_kw" xml:space="preserve">
+  <value>Cuaite</value>
+</data>
+  <data name="country_description_ky" xml:space="preserve">
+  <value>Ilhas Caimão</value>
+</data>
+  <data name="country_description_kz" xml:space="preserve">
+  <value>Cazaquistão</value>
+</data>
+  <data name="country_description_la" xml:space="preserve">
+  <value>Laos</value>
+</data>
+  <data name="country_description_lb" xml:space="preserve">
+  <value>Líbano</value>
+</data>
+  <data name="country_description_lc" xml:space="preserve">
+  <value>Santa Lúcia</value>
+</data>
+  <data name="country_description_li" xml:space="preserve">
+  <value>Listenstaine</value>
+</data>
+  <data name="country_description_lk" xml:space="preserve">
+  <value>Sri Lanca</value>
+</data>
+  <data name="country_description_lr" xml:space="preserve">
+  <value>Libéria</value>
+</data>
+  <data name="country_description_ls" xml:space="preserve">
+  <value>Lesoto</value>
+</data>
+  <data name="country_description_lt" xml:space="preserve">
+  <value>Lituânia</value>
+</data>
+  <data name="country_description_lu" xml:space="preserve">
+  <value>Luxemburgo</value>
+</data>
+  <data name="country_description_lu_clu" xml:space="preserve">
+  <value>City of Luxembourg</value>
+</data>
+  <data name="country_description_lv" xml:space="preserve">
+  <value>Letónia</value>
+</data>
+  <data name="country_description_ly" xml:space="preserve">
+  <value>Líbia</value>
+</data>
+  <data name="country_description_ma" xml:space="preserve">
+  <value>Marrocos</value>
+</data>
+  <data name="country_description_mc" xml:space="preserve">
+  <value>Mónaco</value>
+</data>
+  <data name="country_description_md" xml:space="preserve">
+  <value>Moldávia</value>
+</data>
+  <data name="country_description_md_bti" xml:space="preserve">
+  <value>Balti</value>
+</data>
+  <data name="country_description_md_ch" xml:space="preserve">
+  <value>Quichinau</value>
+</data>
+  <data name="country_description_me" xml:space="preserve">
+  <value>Montenegro</value>
+</data>
+  <data name="country_description_mg" xml:space="preserve">
+  <value>Madagáscar</value>
+</data>
+  <data name="country_description_mh" xml:space="preserve">
+  <value>Ilhas Marshall</value>
+</data>
+  <data name="country_description_mk" xml:space="preserve">
+  <value>Macedónia</value>
+</data>
+  <data name="country_description_ml" xml:space="preserve">
+  <value>Mali</value>
+</data>
+  <data name="country_description_mm" xml:space="preserve">
+  <value>Mianmar</value>
+</data>
+  <data name="country_description_mn" xml:space="preserve">
+  <value>Mongólia</value>
+</data>
+  <data name="country_description_mo" xml:space="preserve">
+  <value>Macau</value>
+</data>
+  <data name="country_description_mp" xml:space="preserve">
+  <value>Ilhas Marianas do Norte</value>
+</data>
+  <data name="country_description_mq" xml:space="preserve">
+  <value>Martinica</value>
+</data>
+  <data name="country_description_mr" xml:space="preserve">
+  <value>Mauritânia</value>
+</data>
+  <data name="country_description_ms" xml:space="preserve">
+  <value>Monserrate</value>
+</data>
+  <data name="country_description_mt" xml:space="preserve">
+  <value>Malta</value>
+</data>
+  <data name="country_description_mu" xml:space="preserve">
+  <value>Maurícias</value>
+</data>
+  <data name="country_description_mv" xml:space="preserve">
+  <value>Maldivas</value>
+</data>
+  <data name="country_description_mw" xml:space="preserve">
+  <value>Maláui</value>
+</data>
+  <data name="country_description_mx" xml:space="preserve">
+  <value>México</value>
+</data>
+  <data name="country_description_mx_pue" xml:space="preserve">
+  <value>Puebla</value>
+</data>
+  <data name="country_description_my" xml:space="preserve">
+  <value>Malásia</value>
+</data>
+  <data name="country_description_mz" xml:space="preserve">
+  <value>Moçambique</value>
+</data>
+  <data name="country_description_na" xml:space="preserve">
+  <value>Namíbia</value>
+</data>
+  <data name="country_description_nc" xml:space="preserve">
+  <value>Nova Caledónia</value>
+</data>
+  <data name="country_description_ne" xml:space="preserve">
+  <value>Níger</value>
+</data>
+  <data name="country_description_nf" xml:space="preserve">
+  <value>Ilha Norfolk</value>
+</data>
+  <data name="country_description_ng" xml:space="preserve">
+  <value>Nigéria</value>
+</data>
+  <data name="country_description_ng_lag" xml:space="preserve">
+  <value>Lagos</value>
+</data>
+  <data name="country_description_ni" xml:space="preserve">
+  <value>Nicarágua</value>
+</data>
+  <data name="country_description_ni_bo" xml:space="preserve">
+  <value>Boaco</value>
+</data>
+  <data name="country_description_ni_mn" xml:space="preserve">
+  <value>Managua</value>
+</data>
+  <data name="country_description_ni_mo" xml:space="preserve">
+  <value>Moyogalpa</value>
+</data>
+  <data name="country_description_ni_na" xml:space="preserve">
+  <value>Nandaime</value>
+</data>
+  <data name="country_description_ni_ni" xml:space="preserve">
+  <value>Niquinohomo</value>
+</data>
+  <data name="country_description_ni_om" xml:space="preserve">
+  <value>Ometepe</value>
+</data>
+  <data name="country_description_ni_so" xml:space="preserve">
+  <value>Somoto</value>
+</data>
+  <data name="country_description_nl" xml:space="preserve">
+  <value>Países Baixos</value>
+</data>
+  <data name="country_description_no" xml:space="preserve">
+  <value>Noruega</value>
+</data>
+  <data name="country_description_np" xml:space="preserve">
+  <value>Nepal</value>
+</data>
+  <data name="country_description_nr" xml:space="preserve">
+  <value>Nauru</value>
+</data>
+  <data name="country_description_nu" xml:space="preserve">
+  <value>Niue</value>
+</data>
+  <data name="country_description_nz" xml:space="preserve">
+  <value>Nova Zelândia</value>
+</data>
+  <data name="country_description_om" xml:space="preserve">
+  <value>Omã</value>
+</data>
+  <data name="country_description_pa" xml:space="preserve">
+  <value>Panamá</value>
+</data>
+  <data name="country_description_pe" xml:space="preserve">
+  <value>Peru</value>
+</data>
+  <data name="country_description_pf" xml:space="preserve">
+  <value>Polinésia Francesa</value>
+</data>
+  <data name="country_description_pg" xml:space="preserve">
+  <value>Papua Nova Guiné</value>
+</data>
+  <data name="country_description_ph" xml:space="preserve">
+  <value>Filipinas</value>
+</data>
+  <data name="country_description_pk" xml:space="preserve">
+  <value>Paquistão</value>
+</data>
+  <data name="country_description_pl" xml:space="preserve">
+  <value>Polónia</value>
+</data>
+  <data name="country_description_pm" xml:space="preserve">
+  <value>São Pedro e Miquelão</value>
+</data>
+  <data name="country_description_pn" xml:space="preserve">
+  <value>Ilhas Pitcairn</value>
+</data>
+  <data name="country_description_pr" xml:space="preserve">
+  <value>Porto Rico</value>
+</data>
+  <data name="country_description_ps" xml:space="preserve">
+  <value>Terrítórios Ocupados Palestinianos</value>
+</data>
+  <data name="country_description_pt" xml:space="preserve">
+  <value>Portugal</value>
+</data>
+  <data name="country_description_pt_abf" xml:space="preserve">
+  <value>Albufeira</value>
+</data>
+  <data name="country_description_pt_abt" xml:space="preserve">
+  <value>Abrantes</value>
+</data>
+  <data name="country_description_pt_acb" xml:space="preserve">
+  <value>Alcobaça</value>
+</data>
+  <data name="country_description_pt_ach" xml:space="preserve">
+  <value>Alcochete</value>
+</data>
+  <data name="country_description_pt_acn" xml:space="preserve">
+  <value>Alcanena</value>
+</data>
+  <data name="country_description_pt_act" xml:space="preserve">
+  <value>Alcoutim</value>
+</data>
+  <data name="country_description_pt_adl" xml:space="preserve">
+  <value>Alandroal</value>
+</data>
+  <data name="country_description_pt_adv" xml:space="preserve">
+  <value>Almodôvar</value>
+</data>
+  <data name="country_description_pt_afe" xml:space="preserve">
+  <value>Alfândega da Fé</value>
+</data>
+  <data name="country_description_pt_agb" xml:space="preserve">
+  <value>Aguiar da Beira</value>
+</data>
+  <data name="country_description_pt_agd" xml:space="preserve">
+  <value>Águeda</value>
+</data>
+  <data name="country_description_pt_agh" xml:space="preserve">
+  <value>Angra do Heroísmo</value>
+</data>
+  <data name="country_description_pt_agn" xml:space="preserve">
+  <value>Arganil</value>
+</data>
+  <data name="country_description_pt_ajt" xml:space="preserve">
+  <value>Aljustrel</value>
+</data>
+  <data name="country_description_pt_ajz" xml:space="preserve">
+  <value>Aljezur</value>
+</data>
+  <data name="country_description_pt_alb" xml:space="preserve">
+  <value>Albergaria-a-Velha</value>
+</data>
+  <data name="country_description_pt_ald" xml:space="preserve">
+  <value>Almeida</value>
+</data>
+  <data name="country_description_pt_alj" xml:space="preserve">
+  <value>Alijó</value>
+</data>
+  <data name="country_description_pt_alm" xml:space="preserve">
+  <value>Almada</value>
+</data>
+  <data name="country_description_pt_alq" xml:space="preserve">
+  <value>Alenquer</value>
+</data>
+  <data name="country_description_pt_alr" xml:space="preserve">
+  <value>Almeirim</value>
+</data>
+  <data name="country_description_pt_alt" xml:space="preserve">
+  <value>Alter do Chão</value>
+</data>
+  <data name="country_description_pt_amd" xml:space="preserve">
+  <value>Amadora</value>
+</data>
+  <data name="country_description_pt_amm" xml:space="preserve">
+  <value>Armamar</value>
+</data>
+  <data name="country_description_pt_amr" xml:space="preserve">
+  <value>Amares</value>
+</data>
+  <data name="country_description_pt_amt" xml:space="preserve">
+  <value>Amarante</value>
+</data>
+  <data name="country_description_pt_and" xml:space="preserve">
+  <value>Anadia</value>
+</data>
+  <data name="country_description_pt_ans" xml:space="preserve">
+  <value>Ansião</value>
+</data>
+  <data name="country_description_pt_apc" xml:space="preserve">
+  <value>Alpiarça</value>
+</data>
+  <data name="country_description_pt_arc" xml:space="preserve">
+  <value>Arouca</value>
+</data>
+  <data name="country_description_pt_arl" xml:space="preserve">
+  <value>Arraiolos</value>
+</data>
+  <data name="country_description_pt_arr" xml:space="preserve">
+  <value>Arronches</value>
+</data>
+  <data name="country_description_pt_arv" xml:space="preserve">
+  <value>Arruda dos Vinhos</value>
+</data>
+  <data name="country_description_pt_asl" xml:space="preserve">
+  <value>Alcácer do Sal</value>
+</data>
+  <data name="country_description_pt_avr" xml:space="preserve">
+  <value>Aveiro</value>
+</data>
+  <data name="country_description_pt_avs" xml:space="preserve">
+  <value>Avis</value>
+</data>
+  <data name="country_description_pt_avt" xml:space="preserve">
+  <value>Alvito</value>
+</data>
+  <data name="country_description_pt_avv" xml:space="preserve">
+  <value>Arcos de Valdevez</value>
+</data>
+  <data name="country_description_pt_avz" xml:space="preserve">
+  <value>Alvaiázere</value>
+</data>
+  <data name="country_description_pt_azb" xml:space="preserve">
+  <value>Azambuja</value>
+</data>
+  <data name="country_description_pt_bao" xml:space="preserve">
+  <value>Baião</value>
+</data>
+  <data name="country_description_pt_bbr" xml:space="preserve">
+  <value>Bombarral</value>
+</data>
+  <data name="country_description_pt_bcl" xml:space="preserve">
+  <value>Barcelos</value>
+</data>
+  <data name="country_description_pt_bgc" xml:space="preserve">
+  <value>Bragança</value>
+</data>
+  <data name="country_description_pt_bja" xml:space="preserve">
+  <value>Beja</value>
+</data>
+  <data name="country_description_pt_bmt" xml:space="preserve">
+  <value>Belmonte</value>
+</data>
+  <data name="country_description_pt_bnv" xml:space="preserve">
+  <value>Benavente</value>
+</data>
+  <data name="country_description_pt_brb" xml:space="preserve">
+  <value>Borba</value>
+</data>
+  <data name="country_description_pt_brc" xml:space="preserve">
+  <value>Barrancos</value>
+</data>
+  <data name="country_description_pt_brg" xml:space="preserve">
+  <value>Braga</value>
+</data>
+  <data name="country_description_pt_brr" xml:space="preserve">
+  <value>Barreiro</value>
+</data>
+  <data name="country_description_pt_btc" xml:space="preserve">
+  <value>Boticas</value>
+</data>
+  <data name="country_description_pt_btl" xml:space="preserve">
+  <value>Batalha</value>
+</data>
+  <data name="country_description_pt_cbc" xml:space="preserve">
+  <value>Cabeceiras de Basto</value>
+</data>
+  <data name="country_description_pt_cdv" xml:space="preserve">
+  <value>Cadaval</value>
+</data>
+  <data name="country_description_pt_cht" xml:space="preserve">
+  <value>Calheta (Açores)</value>
+</data>
+  <data name="country_description_pt_cld" xml:space="preserve">
+  <value>Caldas da Rainha</value>
+</data>
+  <data name="country_description_pt_clt" xml:space="preserve">
+  <value>Calheta (Madeira)</value>
+</data>
+  <data name="country_description_pt_cml" xml:space="preserve">
+  <value>Câmara de Lobos</value>
+</data>
+  <data name="country_description_pt_cmn" xml:space="preserve">
+  <value>Caminha</value>
+</data>
+  <data name="country_description_pt_cmr" xml:space="preserve">
+  <value>Campo Maior</value>
+</data>
+  <data name="country_description_pt_cnt" xml:space="preserve">
+  <value>Cantanhede</value>
+</data>
+  <data name="country_description_pt_cpr" xml:space="preserve">
+  <value>Castanheira de Pera</value>
+</data>
+  <data name="country_description_pt_crs" xml:space="preserve">
+  <value>Carregal do Sal</value>
+</data>
+  <data name="country_description_pt_crz" xml:space="preserve">
+  <value>Carrazeda de Ansiães</value>
+</data>
+  <data name="country_description_pt_csc" xml:space="preserve">
+  <value>Cascais</value>
+</data>
+  <data name="country_description_pt_ctb" xml:space="preserve">
+  <value>Castelo Branco</value>
+</data>
+  <data name="country_description_pt_ctx" xml:space="preserve">
+  <value>Cartaxo</value>
+</data>
+  <data name="country_description_pw" xml:space="preserve">
+  <value>Palau</value>
+</data>
+  <data name="country_description_py" xml:space="preserve">
+  <value>Paraguai</value>
+</data>
+  <data name="country_description_qa" xml:space="preserve">
+  <value>Catar</value>
+</data>
+  <data name="country_description_re" xml:space="preserve">
+  <value>Reunião</value>
+</data>
+  <data name="country_description_ro" xml:space="preserve">
+  <value>Roménia</value>
+</data>
+  <data name="country_description_rs" xml:space="preserve">
+  <value>Sérvia e Montenegro</value>
+</data>
+  <data name="country_description_ru" xml:space="preserve">
+  <value>Federação Russa</value>
+</data>
+  <data name="country_description_rw" xml:space="preserve">
+  <value>Ruanda</value>
+</data>
+  <data name="country_description_sa" xml:space="preserve">
+  <value>Arábia Saudita</value>
+</data>
+  <data name="country_description_sb" xml:space="preserve">
+  <value>Ilhas Salomão</value>
+</data>
+  <data name="country_description_sc" xml:space="preserve">
+  <value>Seicheles</value>
+</data>
+  <data name="country_description_sd" xml:space="preserve">
+  <value>Sudão</value>
+</data>
+  <data name="country_description_se" xml:space="preserve">
+  <value>Suécia</value>
+</data>
+  <data name="country_description_sg" xml:space="preserve">
+  <value>Singapura</value>
+</data>
+  <data name="country_description_sh" xml:space="preserve">
+  <value>Santa Helena</value>
+</data>
+  <data name="country_description_si" xml:space="preserve">
+  <value>Eslovénia</value>
+</data>
+  <data name="country_description_sj" xml:space="preserve">
+  <value>Esvalbarda e Ilhas Jan Mayen</value>
+</data>
+  <data name="country_description_sk" xml:space="preserve">
+  <value>Eslováquia</value>
+</data>
+  <data name="country_description_sl" xml:space="preserve">
+  <value>Serra Leoa</value>
+</data>
+  <data name="country_description_sm" xml:space="preserve">
+  <value>São Marino</value>
+</data>
+  <data name="country_description_sn" xml:space="preserve">
+  <value>Senegal</value>
+</data>
+  <data name="country_description_so" xml:space="preserve">
+  <value>Somália</value>
+</data>
+  <data name="country_description_sr" xml:space="preserve">
+  <value>Surinão</value>
+</data>
+  <data name="country_description_ss" xml:space="preserve">
+  <value>South Sudan</value>
+</data>
+  <data name="country_description_st" xml:space="preserve">
+  <value>São Tomé e Príncipe</value>
+</data>
+  <data name="country_description_sv" xml:space="preserve">
+  <value>Salvador</value>
+</data>
+  <data name="country_description_sx" xml:space="preserve">
+  <value>Saint Martin (Dutch part)</value>
+</data>
+  <data name="country_description_sy" xml:space="preserve">
+  <value>Síria</value>
+</data>
+  <data name="country_description_sz" xml:space="preserve">
+  <value>Suazilândia</value>
+</data>
+  <data name="country_description_target" xml:space="preserve">
+  <value>Trans-European Automated Real-time Gross settlement Express Transfer system closing dates</value>
+</data>
+  <data name="country_description_tc" xml:space="preserve">
+  <value>Ilhas Turcas e Caicos</value>
+</data>
+  <data name="country_description_td" xml:space="preserve">
+  <value>Chade</value>
+</data>
+  <data name="country_description_tf" xml:space="preserve">
+  <value>French Southern Territories</value>
+</data>
+  <data name="country_description_tg" xml:space="preserve">
+  <value>Togo</value>
+</data>
+  <data name="country_description_th" xml:space="preserve">
+  <value>Tailândia</value>
+</data>
+  <data name="country_description_tj" xml:space="preserve">
+  <value>Tajiquistão</value>
+</data>
+  <data name="country_description_tk" xml:space="preserve">
+  <value>Toquelau</value>
+</data>
+  <data name="country_description_tl" xml:space="preserve">
+  <value>Timor-Leste</value>
+</data>
+  <data name="country_description_tm" xml:space="preserve">
+  <value>Turquemenistão</value>
+</data>
+  <data name="country_description_tn" xml:space="preserve">
+  <value>Tunísia</value>
+</data>
+  <data name="country_description_to" xml:space="preserve">
+  <value>Tonga</value>
+</data>
+  <data name="country_description_tr" xml:space="preserve">
+  <value>Turquia</value>
+</data>
+  <data name="country_description_tt" xml:space="preserve">
+  <value>Trinidade e Tobago</value>
+</data>
+  <data name="country_description_tv" xml:space="preserve">
+  <value>Tuvalu</value>
+</data>
+  <data name="country_description_tw" xml:space="preserve">
+  <value>Formosa</value>
+</data>
+  <data name="country_description_tz" xml:space="preserve">
+  <value>Tanzânia</value>
+</data>
+  <data name="country_description_ua" xml:space="preserve">
+  <value>Ucrânia</value>
+</data>
+  <data name="country_description_ug" xml:space="preserve">
+  <value>Uganda</value>
+</data>
+  <data name="country_description_uk" xml:space="preserve">
+  <value>Reino Unido da Grâ-Bretanha</value>
+</data>
+  <data name="country_description_uk_al" xml:space="preserve">
+  <value>Alderney</value>
+</data>
+  <data name="country_description_uk_en" xml:space="preserve">
+  <value>Inglaterra</value>
+</data>
+  <data name="country_description_uk_gu" xml:space="preserve">
+  <value>Guernsey</value>
+</data>
+  <data name="country_description_uk_im" xml:space="preserve">
+  <value>Ilha de Man</value>
+</data>
+  <data name="country_description_uk_je" xml:space="preserve">
+  <value>Jérsia</value>
+</data>
+  <data name="country_description_uk_ni" xml:space="preserve">
+  <value>Irlanda do Norte</value>
+</data>
+  <data name="country_description_uk_sc" xml:space="preserve">
+  <value>Escócia</value>
+</data>
+  <data name="country_description_uk_wa" xml:space="preserve">
+  <value>Gales</value>
+</data>
+  <data name="country_description_um" xml:space="preserve">
+  <value>United States Minor Outlying Islands</value>
+</data>
+  <data name="country_description_us" xml:space="preserve">
+  <value>Estados Unidos da América</value>
+</data>
+  <data name="country_description_us_ak" xml:space="preserve">
+  <value>Alaska</value>
+</data>
+  <data name="country_description_us_al" xml:space="preserve">
+  <value>Alabama</value>
+</data>
+  <data name="country_description_us_ar" xml:space="preserve">
+  <value>Arkansas</value>
+</data>
+  <data name="country_description_us_az" xml:space="preserve">
+  <value>Arizona</value>
+</data>
+  <data name="country_description_us_be" xml:space="preserve">
+  <value>Berkeley</value>
+</data>
+  <data name="country_description_us_ca" xml:space="preserve">
+  <value>Califórnia</value>
+</data>
+  <data name="country_description_us_co" xml:space="preserve">
+  <value>Colorado</value>
+</data>
+  <data name="country_description_us_ct" xml:space="preserve">
+  <value>Connecticut</value>
+</data>
+  <data name="country_description_us_dc" xml:space="preserve">
+  <value>Distrito da Colúmbia</value>
+</data>
+  <data name="country_description_us_de" xml:space="preserve">
+  <value>Delaware</value>
+</data>
+  <data name="country_description_us_fl" xml:space="preserve">
+  <value>Flórida</value>
+</data>
+  <data name="country_description_us_ga" xml:space="preserve">
+  <value>Georgia</value>
+</data>
+  <data name="country_description_us_hi" xml:space="preserve">
+  <value>Hawaii</value>
+</data>
+  <data name="country_description_us_ia" xml:space="preserve">
+  <value>Iowa</value>
+</data>
+  <data name="country_description_us_id" xml:space="preserve">
+  <value>Idaho</value>
+</data>
+  <data name="country_description_us_il" xml:space="preserve">
+  <value>Illinois</value>
+</data>
+  <data name="country_description_us_in" xml:space="preserve">
+  <value>Indiana</value>
+</data>
+  <data name="country_description_us_ks" xml:space="preserve">
+  <value>Kansas</value>
+</data>
+  <data name="country_description_us_ky" xml:space="preserve">
+  <value>Kentucky</value>
+</data>
+  <data name="country_description_us_la" xml:space="preserve">
+  <value>Louisiana</value>
+</data>
+  <data name="country_description_us_ma" xml:space="preserve">
+  <value>Massachusetts</value>
+</data>
+  <data name="country_description_us_md" xml:space="preserve">
+  <value>Maryland</value>
+</data>
+  <data name="country_description_us_me" xml:space="preserve">
+  <value>Maine</value>
+</data>
+  <data name="country_description_us_mi" xml:space="preserve">
+  <value>Michigan</value>
+</data>
+  <data name="country_description_us_mn" xml:space="preserve">
+  <value>Minnesota</value>
+</data>
+  <data name="country_description_us_mo" xml:space="preserve">
+  <value>Missouri</value>
+</data>
+  <data name="country_description_us_ms" xml:space="preserve">
+  <value>Mississippi</value>
+</data>
+  <data name="country_description_us_mt" xml:space="preserve">
+  <value>Montana</value>
+</data>
+  <data name="country_description_us_nc" xml:space="preserve">
+  <value>North Carolina</value>
+</data>
+  <data name="country_description_us_nc_ce" xml:space="preserve">
+  <value>Charlotte</value>
+</data>
+  <data name="country_description_us_nc_me" xml:space="preserve">
+  <value>Mecklenburg</value>
+</data>
+  <data name="country_description_us_nd" xml:space="preserve">
+  <value>North Dakota</value>
+</data>
+  <data name="country_description_us_ne" xml:space="preserve">
+  <value>Nebraska</value>
+</data>
+  <data name="country_description_us_nh" xml:space="preserve">
+  <value>New Hampshire</value>
+</data>
+  <data name="country_description_us_nj" xml:space="preserve">
+  <value>New Jersey</value>
+</data>
+  <data name="country_description_us_nm" xml:space="preserve">
+  <value>New Mexico</value>
+</data>
+  <data name="country_description_us_nv" xml:space="preserve">
+  <value>Nevada</value>
+</data>
+  <data name="country_description_us_ny" xml:space="preserve">
+  <value>New York</value>
+</data>
+  <data name="country_description_us_ny_nyc" xml:space="preserve">
+  <value>New York City</value>
+</data>
+  <data name="country_description_us_oh" xml:space="preserve">
+  <value>Ohio</value>
+</data>
+  <data name="country_description_us_ok" xml:space="preserve">
+  <value>Oklahoma</value>
+</data>
+  <data name="country_description_us_or" xml:space="preserve">
+  <value>Oregon</value>
+</data>
+  <data name="country_description_us_pa" xml:space="preserve">
+  <value>Pennsylvania</value>
+</data>
+  <data name="country_description_us_ri" xml:space="preserve">
+  <value>Rhode Island</value>
+</data>
+  <data name="country_description_us_sc" xml:space="preserve">
+  <value>South Carolina</value>
+</data>
+  <data name="country_description_us_sd" xml:space="preserve">
+  <value>South Dakota</value>
+</data>
+  <data name="country_description_us_tn" xml:space="preserve">
+  <value>Tennesee</value>
+</data>
+  <data name="country_description_us_tx" xml:space="preserve">
+  <value>Texas</value>
+</data>
+  <data name="country_description_us_ut" xml:space="preserve">
+  <value>Utah</value>
+</data>
+  <data name="country_description_us_va" xml:space="preserve">
+  <value>Virginia</value>
+</data>
+  <data name="country_description_us_vt" xml:space="preserve">
+  <value>Vermont</value>
+</data>
+  <data name="country_description_us_wa" xml:space="preserve">
+  <value>Washington</value>
+</data>
+  <data name="country_description_us_wi" xml:space="preserve">
+  <value>Wisconsin</value>
+</data>
+  <data name="country_description_us_wv" xml:space="preserve">
+  <value>West Virginia</value>
+</data>
+  <data name="country_description_us_wy" xml:space="preserve">
+  <value>Wyoming</value>
+</data>
+  <data name="country_description_uy" xml:space="preserve">
+  <value>Uruguai</value>
+</data>
+  <data name="country_description_uz" xml:space="preserve">
+  <value>Usbequistão</value>
+</data>
+  <data name="country_description_va" xml:space="preserve">
+  <value>Cidade do Vaticano</value>
+</data>
+  <data name="country_description_vc" xml:space="preserve">
+  <value>São Vicente e Granadinas</value>
+</data>
+  <data name="country_description_ve" xml:space="preserve">
+  <value>Venezuela</value>
+</data>
+  <data name="country_description_vg" xml:space="preserve">
+  <value>Ilhas Virgens Britânicas</value>
+</data>
+  <data name="country_description_vi" xml:space="preserve">
+  <value>Ilhas Virgens Americanas</value>
+</data>
+  <data name="country_description_vn" xml:space="preserve">
+  <value>Vietname</value>
+</data>
+  <data name="country_description_vu" xml:space="preserve">
+  <value>Vanuatu</value>
+</data>
+  <data name="country_description_wf" xml:space="preserve">
+  <value>Wallis e Futuna</value>
+</data>
+  <data name="country_description_ws" xml:space="preserve">
+  <value>Samoa</value>
+</data>
+  <data name="country_description_ye" xml:space="preserve">
+  <value>Iémen</value>
+</data>
+  <data name="country_description_yt" xml:space="preserve">
+  <value>Maiote</value>
+</data>
+  <data name="country_description_za" xml:space="preserve">
+  <value>África do Sul</value>
+</data>
+  <data name="country_description_zm" xml:space="preserve">
+  <value>Zâmbia</value>
+</data>
+  <data name="country_description_zw" xml:space="preserve">
+  <value>Zimbabué</value>
+</data>
+</root>
