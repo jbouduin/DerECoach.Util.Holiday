@@ -1,6 +1,6 @@
-﻿using DerECoach.Util.Holiday.Gui.ViewModels.HolidayGrid;
+﻿using DerECoach.Util.Holiday.App.ViewModels.HolidayGrid;
 
-namespace DerECoach.Util.Holiday.Gui.Views
+namespace DerECoach.Util.Holiday.App.Views
 {
     /// <summary>
     /// Interaction logic for HolidayGrid.xaml

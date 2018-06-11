@@ -2,10 +2,10 @@
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
-using DerECoach.Util.Holiday.Gui.Extensions;
-using DerECoach.Util.Holiday.Gui.ViewModels.HolidayGrid;
+using DerECoach.Util.Holiday.App.Extensions;
+using DerECoach.Util.Holiday.App.ViewModels.HolidayGrid;
 
-namespace DerECoach.Util.Holiday.Gui.ViewModels.LocationTree
+namespace DerECoach.Util.Holiday.App.ViewModels.LocationTree
 {
     internal interface ILocationTreeViewModel
     {

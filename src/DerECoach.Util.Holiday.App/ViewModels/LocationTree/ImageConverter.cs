@@ -2,7 +2,7 @@
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace DerECoach.Util.Holiday.Gui.ViewModels.LocationTree
+namespace DerECoach.Util.Holiday.App.ViewModels.LocationTree
 {
     class ImageConverter : IValueConverter
     {

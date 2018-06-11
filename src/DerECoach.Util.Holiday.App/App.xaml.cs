@@ -1,5 +1,5 @@
 ﻿
-namespace DerECoach.Util.Holiday.Gui
+namespace DerECoach.Util.Holiday.App
 {
     /// <summary>
     /// Interaction logic for App.xaml

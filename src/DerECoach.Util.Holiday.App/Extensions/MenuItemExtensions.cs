@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace DerECoach.Util.Holiday.Gui.Extensions
+namespace DerECoach.Util.Holiday.App.Extensions
 {
     public static class MenuItemExtensions
     {

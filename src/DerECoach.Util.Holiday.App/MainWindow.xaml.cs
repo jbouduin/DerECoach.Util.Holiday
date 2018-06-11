@@ -1,9 +1,9 @@
-﻿using DerECoach.Util.Holiday.Gui.ViewModels.HolidayGrid;
-using DerECoach.Util.Holiday.Gui.ViewModels.LocationTree;
-using DerECoach.Util.Holiday.Gui.ViewModels.MainWindow;
-using DerECoach.Util.Holiday.Gui.Views;
+﻿using DerECoach.Util.Holiday.App.ViewModels.HolidayGrid;
+using DerECoach.Util.Holiday.App.ViewModels.LocationTree;
+using DerECoach.Util.Holiday.App.ViewModels.MainWindow;
+using DerECoach.Util.Holiday.App.Views;
 
-namespace DerECoach.Util.Holiday.Gui
+namespace DerECoach.Util.Holiday.App
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

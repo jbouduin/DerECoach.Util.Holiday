@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerECoach.Util.Holiday", "DerECoach.Util.Holiday\DerECoach.Util.Holiday.csproj", "{EC47E1F9-399D-4F49-B9E3-0A72BCC2DE99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerECoach.Util.Holiday.Gui", "DerECoach.Util.Holiday.Gui\DerECoach.Util.Holiday.Gui.csproj", "{9C1501D4-617F-4E40-B674-92770F03E78C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerECoach.Util.Holiday.App", "DerECoach.Util.Holiday.App\DerECoach.Util.Holiday.App.csproj", "{9C1501D4-617F-4E40-B674-92770F03E78C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

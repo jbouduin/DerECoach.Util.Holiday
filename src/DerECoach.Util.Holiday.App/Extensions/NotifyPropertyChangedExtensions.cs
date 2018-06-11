@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Linq.Expressions;
 
-namespace DerECoach.Util.Holiday.Gui.Extensions
+namespace DerECoach.Util.Holiday.App.Extensions
 {
     // TODO use DerECoach.Util.Common
     public static class NotifyPropertyChangedExtensions

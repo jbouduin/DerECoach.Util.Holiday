@@ -1,7 +1,7 @@
 ﻿
-using DerECoach.Util.Holiday.Gui.ViewModels.LocationTree;
+using DerECoach.Util.Holiday.App.ViewModels.LocationTree;
 
-namespace DerECoach.Util.Holiday.Gui.Views
+namespace DerECoach.Util.Holiday.App.Views
 {
     /// <summary>
     /// Interaction logic for LocationTreeView.xaml

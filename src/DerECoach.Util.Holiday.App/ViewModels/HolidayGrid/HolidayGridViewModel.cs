@@ -3,9 +3,9 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
-using DerECoach.Util.Holiday.Gui.Extensions;
+using DerECoach.Util.Holiday.App.Extensions;
 
-namespace DerECoach.Util.Holiday.Gui.ViewModels.HolidayGrid
+namespace DerECoach.Util.Holiday.App.ViewModels.HolidayGrid
 {
     internal interface IHolidayGridViewModel
     {

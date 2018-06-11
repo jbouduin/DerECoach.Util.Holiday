@@ -7,8 +7,8 @@
     <ProjectGuid>{9C1501D4-617F-4E40-B674-92770F03E78C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DerECoach.Util.Holiday.Gui</RootNamespace>
-    <AssemblyName>DerECoach.Util.Holiday.Gui</AssemblyName>
+    <RootNamespace>DerECoach.Util.Holiday.App</RootNamespace>
+    <AssemblyName>DerECoach.Util.Holiday.App</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,7 +60,6 @@
     <Compile Include="..\Shared\VersionInfo\VersionInfo.cs">
       <Link>Properties\VersionInfo.cs</Link>
     </Compile>
-    <Compile Include="Bootstrapper.cs" />
     <Compile Include="Extensions\MenuItemExtensions.cs" />
     <Compile Include="Extensions\NotifyPropertyChangedExtensions.cs" />
     <Compile Include="ViewModels\MainWindow\LocalisationMenuItemViewModel.cs" />
@@ -126,7 +125,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DerECoach.Util.Holiday\DerECoach.Util.Holiday.csproj">
       <Project>{ec47e1f9-399d-4f49-b9e3-0a72bcc2de99}</Project>
-      <Name>Bouduin.Lib.Holiday</Name>
+      <Name>DerECoach.Util.Holiday</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

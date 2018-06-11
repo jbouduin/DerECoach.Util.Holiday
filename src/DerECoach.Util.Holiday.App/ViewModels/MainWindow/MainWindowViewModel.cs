@@ -2,10 +2,10 @@
 using System.ComponentModel;
 using System.Globalization;
 using DerECoach.Util.Holiday.Extensions;
-using DerECoach.Util.Holiday.Gui.Extensions;
-using DerECoach.Util.Holiday.Gui.ViewModels.LocationTree;
+using DerECoach.Util.Holiday.App.Extensions;
+using DerECoach.Util.Holiday.App.ViewModels.LocationTree;
 
-namespace DerECoach.Util.Holiday.Gui.ViewModels.MainWindow
+namespace DerECoach.Util.Holiday.App.ViewModels.MainWindow
 {
     internal class MainWindowViewModel : INotifyPropertyChanged
     {
