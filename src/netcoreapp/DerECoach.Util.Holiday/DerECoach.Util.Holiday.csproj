@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Configurations\Configuration.cs" Link="Configurations\Configuration.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Configurations\ConfigurationService.cs" Link="Configurations\ConfigurationService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Configurations\Holiday.designer.cs" Link="Configurations\Holiday.designer.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Extensions\DateTimeExtensions.cs" Link="Extensions\DateTimeExtensions.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\HolidayDate.cs" Link="HolidayDate.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\IHolidayDate.cs" Link="IHolidayDate.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\IHolidayService.cs" Link="IHolidayService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\ILocation.cs" Link="ILocation.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Location.cs" Link="Location.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Service.cs" Link="Service.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\CalendarService.cs" Link="Services\CalendarService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\ChristianHolidayService.cs" Link="Services\ChristianHolidayService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\HolidayService.cs" Link="Services\HolidayService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\ICalendarService.cs" Link="Services\ICalendarService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\IChristianHolidayService.cs" Link="Services\IChristianHolidayService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\ILocalizationService.cs" Link="Services\ILocalizationService.cs" />
+    <Compile Include="..\..\Shared\DerECoach.Util.Holiday\Services\LocalizationService.cs" Link="Services\LocalizationService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_al.xml" Link="Data\Holidays_al.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ar.xml" Link="Data\Holidays_ar.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_at.xml" Link="Data\Holidays_at.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_au.xml" Link="Data\Holidays_au.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ba.xml" Link="Data\Holidays_ba.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_be.xml" Link="Data\Holidays_be.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_bg.xml" Link="Data\Holidays_bg.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_bo.xml" Link="Data\Holidays_bo.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_br.xml" Link="Data\Holidays_br.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_by.xml" Link="Data\Holidays_by.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ca.xml" Link="Data\Holidays_ca.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ch.xml" Link="Data\Holidays_ch.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_cl.xml" Link="Data\Holidays_cl.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_co.xml" Link="Data\Holidays_co.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_cr.xml" Link="Data\Holidays_cr.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_cz.xml" Link="Data\Holidays_cz.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_de.xml" Link="Data\Holidays_de.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_dk.xml" Link="Data\Holidays_dk.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ec.xml" Link="Data\Holidays_ec.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ee.xml" Link="Data\Holidays_ee.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_es.xml" Link="Data\Holidays_es.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_et.xml" Link="Data\Holidays_et.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_fi.xml" Link="Data\Holidays_fi.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_fr.xml" Link="Data\Holidays_fr.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_gr.xml" Link="Data\Holidays_gr.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_hr.xml" Link="Data\Holidays_hr.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_hu.xml" Link="Data\Holidays_hu.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ie.xml" Link="Data\Holidays_ie.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_in.xml" Link="Data\Holidays_in.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_is.xml" Link="Data\Holidays_is.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_it.xml" Link="Data\Holidays_it.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_jp.xml" Link="Data\Holidays_jp.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_kz.xml" Link="Data\Holidays_kz.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_li.xml" Link="Data\Holidays_li.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_lt.xml" Link="Data\Holidays_lt.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_lu.xml" Link="Data\Holidays_lu.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_lv.xml" Link="Data\Holidays_lv.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_md.xml" Link="Data\Holidays_md.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_me.xml" Link="Data\Holidays_me.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_mk.xml" Link="Data\Holidays_mk.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_mt.xml" Link="Data\Holidays_mt.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_mx.xml" Link="Data\Holidays_mx.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ng.xml" Link="Data\Holidays_ng.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ni.xml" Link="Data\Holidays_ni.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_nl.xml" Link="Data\Holidays_nl.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_no.xml" Link="Data\Holidays_no.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_nsye_euronext.xml" Link="Data\Holidays_nsye_euronext.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_nyse.xml" Link="Data\Holidays_nyse.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_pa.xml" Link="Data\Holidays_pa.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_pe.xml" Link="Data\Holidays_pe.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_pl.xml" Link="Data\Holidays_pl.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_pt.xml" Link="Data\Holidays_pt.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_py.xml" Link="Data\Holidays_py.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ro.xml" Link="Data\Holidays_ro.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_rs.xml" Link="Data\Holidays_rs.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ru.xml" Link="Data\Holidays_ru.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_se.xml" Link="Data\Holidays_se.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_si.xml" Link="Data\Holidays_si.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_sk.xml" Link="Data\Holidays_sk.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_target.xml" Link="Data\Holidays_target.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ua.xml" Link="Data\Holidays_ua.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_uk.xml" Link="Data\Holidays_uk.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_us.xml" Link="Data\Holidays_us.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_uy.xml" Link="Data\Holidays_uy.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_ve.xml" Link="Data\Holidays_ve.xml" />
+    <Content Include="..\..\Shared\DerECoach.Util.Holiday\Data\Holidays_za.xml" Link="Data\Holidays_za.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Data\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Shared\DerECoach.Util.Holiday\Configurations\Holiday.xsd" Link="Configurations\Holiday.xsd" />
+  </ItemGroup>
+
+</Project>
