@@ -55,7 +55,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ACN" description="Alcanena">
   		<tns:Holidays>
-  			<!-- ASCENSION THURSDAY -->
+  			<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ACB" description="Alcobaça">
@@ -78,7 +78,7 @@
     <tns:SubConfigurations hierarchy="ALQ" description="Alenquer">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="2" descriptionPropertiesKey="CITY_DAY"/>
-			<!-- ASCENSION THURSDAY -->
+			<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AFE" description="Alfândega da Fé">
@@ -113,7 +113,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ALR" description="Almeirim">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ADV" description="Almodôvar">
@@ -128,7 +128,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ALT" description="Alter do Chão">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AVZ" description="Alvaiázere">
@@ -138,7 +138,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AVT" description="Alvito">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AMD" description="Amadora">
@@ -158,7 +158,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AND" description="Anadia">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AGH" description="Angra do Heroísmo">
@@ -168,7 +168,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ANS" description="Ansião">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AVV" description="Arcos de Valdevez">
@@ -193,7 +193,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ARL" description="Arraiolos">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ARR" description="Arronches">
@@ -203,7 +203,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="ARV" description="Arruda dos Vinhos">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AVR" description="Aveiro">
@@ -218,7 +218,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="AZB" description="Azambuja">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="BAO" description="Baião">
@@ -248,7 +248,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="BJA" description="Beja">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="BMT" description="Belmonte">
@@ -258,7 +258,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="BNV" description="Benavente">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="BBR" description="Bombarral">
@@ -336,7 +336,7 @@
         	<tns:Fixed month="AUGUST" day="31" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="CRS" description="Carregal do Sal">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -345,7 +345,7 @@
  -->
     <tns:SubConfigurations hierarchy="CTX" description="Cartaxo">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="CSC" description="Cascais">
@@ -353,7 +353,7 @@
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="CPR" description="Castanheira de Pera">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -388,7 +388,7 @@
     <tns:SubConfigurations hierarchy="CVR" description="Castro Verde">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="29" descriptionPropertiesKey="CITY_DAY"/>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="CLB" description="Celorico da Beira">
@@ -403,7 +403,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="CHM" description="Chamusca">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="CHV" description="Chaves">
@@ -436,7 +436,7 @@
         	<tns:Fixed month="AUGUST" day="17" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
   	<tns:SubConfigurations hierarchy="CRV" description="Corvo">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -485,7 +485,7 @@
   	</tns:SubConfigurations>
   	<tns:SubConfigurations hierarchy="ETZ" description="Estremoz">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
   	<tns:SubConfigurations hierarchy="EVR" description="Évora">
@@ -570,7 +570,7 @@
   	</tns:SubConfigurations>
   	<tns:SubConfigurations hierarchy="GLG" description="Golegã">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
   	<tns:SubConfigurations hierarchy="GDM" description="Gondomar">
@@ -655,7 +655,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="LLE" description="Loulé">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="LRS" description="Loures">
@@ -673,7 +673,7 @@
         	<tns:Fixed month="JUNE" day="24" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="LOU" description="Lousada">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -702,7 +702,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MFR" description="Mafra">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MAI" description="Maia">
@@ -727,7 +727,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MGR" description="Marinha Grande">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MRV" description="Marvão">
@@ -742,7 +742,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MLD" description="Mealhada">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MED" description="Mêda">
@@ -752,7 +752,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MLG" description="Melgaço">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MTL" description="Mértola">
@@ -807,7 +807,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MCQ" description="Monchique">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MDB" description="Mondim de Basto">
@@ -847,7 +847,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MRT" description="Mortágua">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="MRA" description="Moura">
@@ -885,7 +885,7 @@
         	<tns:ChristianHoliday type="EASTER_MONDAY" />
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="NRD" description="Nordeste">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -917,7 +917,7 @@
         	<!-- Second Monday of August -->
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="OLH" description="Olhão da Restauração">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -936,7 +936,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="OBR" description="Oliveira do Bairro">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="OHP" description="Oliveira do Hospital">
@@ -984,7 +984,7 @@
         	<tns:Fixed month="AUGUST" day="10" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="PGR" description="Pedrógão Grande">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -1001,7 +1001,7 @@
         	<tns:Fixed month="NOVEMBER" day="11" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="PCT" description="Penalva do Castelo">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -1175,7 +1175,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="SMG" description="Salvaterra de Magos">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="SCD" description="Santa Comba Dão">
@@ -1238,7 +1238,7 @@
         	<tns:Fixed month="OCTOBER" day="11" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!--     
+<!--
     <tns:SubConfigurations hierarchy="SJP" description="São João da Pesqueira">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -1285,7 +1285,7 @@
         	<tns:Fixed month="MAY" day="3" descriptionPropertiesKey="CITY_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="SRP" description="Serpa">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -1329,7 +1329,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="SMA" description="Sobral de Monte Agraço">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="SRE" description="Soure">
@@ -1384,7 +1384,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="TNV" description="Torres Novas">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="TVD" description="Torres Vedras">
@@ -1449,7 +1449,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="VDG" description="Vidigueira">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="VRM" description="Vieira do Minho">
@@ -1457,7 +1457,7 @@
         	<!-- Monday after the first Sunday of October -->
         </tns:Holidays>
   	</tns:SubConfigurations>
-<!-- 
+<!--
     <tns:SubConfigurations hierarchy="VLR" description="Vila de Rei">
   		<tns:Holidays>
         	<tns:Fixed month="JUNE" day="13" descriptionPropertiesKey="CITY_DAY"/>
@@ -1486,7 +1486,7 @@
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="VFX" description="Vila Franca de Xira">
   		<tns:Holidays>
-        	<!-- ASCENSION THURSDAY -->
+        	<tns:ChristianHoliday type="ASCENSION_DAY"/>
         </tns:Holidays>
   	</tns:SubConfigurations>
     <tns:SubConfigurations hierarchy="VFC" description="Vila Franca do Campo">
